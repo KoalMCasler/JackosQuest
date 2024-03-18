@@ -1,0 +1,5 @@
+Credits:
+
+New tileset : TinyRPG forest (Standard unity asset store EULA) src:https://assetstore.unity.com/packages/2d/characters/tiny-rpg-forest-114685
+
+Spinning coin : 2D animated coin (Standard unity asset store EULA) src:https://assetstore.unity.com/packages/2d/environments/2d-animated-coin-2d-rpk-22009
