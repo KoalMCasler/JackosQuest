@@ -5,7 +5,7 @@ using TMPro;
 
 public class InteractableObject : MonoBehaviour
 {
-    [Header("")]
+    [Header("Remember to set Item Type")]
     public string message;
     private TextMeshProUGUI infoText;
     public enum ItemType{Nothing, Pickup, Info}
