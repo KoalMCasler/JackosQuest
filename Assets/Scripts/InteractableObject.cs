@@ -8,8 +8,9 @@ public class InteractableObject : MonoBehaviour
     [Header("Remember to set Item Type")]
     public string message;
     private TextMeshProUGUI infoText;
-    public enum ItemType{Nothing, Pickup, Info}
+    public enum ItemType{Nothing, Pickup, Info, Talks}
     public ItemType itemType;
+    public string[] sentences;
 
     public void Start()
     {
@@ -35,7 +36,10 @@ public class InteractableObject : MonoBehaviour
         Debug.Log("Picking up " + this.name);
         this.gameObject.SetActive(false);      
     }
-
+    public void Talks()
+    {
+        FindObjectOfType<DialogueManager>().StartDialogue(sentences);
+    }
     IEnumerator ShowInfo(string message, float delay)
     {
         infoText.text = message;

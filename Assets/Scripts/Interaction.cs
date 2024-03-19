@@ -18,7 +18,7 @@ public class Interaction : MonoBehaviour
     }
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && currentInterObj == true)
+        if(Input.GetKeyDown(KeyCode.Space) && currentInterObj == true)
         {
             Interact();
         }
@@ -27,7 +27,7 @@ public class Interaction : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Interactable") == true)
+        if(other.CompareTag("Interactable") == true)
         {
             indicator.SetActive(true);
             currentInterObj = other.gameObject;
@@ -37,7 +37,7 @@ public class Interaction : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Interactable") == true)  
+        if(other.CompareTag("Interactable") == true)  
         {
             currentInterObj = null;
             indicator.SetActive(false);
@@ -45,17 +45,21 @@ public class Interaction : MonoBehaviour
     }
     void Interact()
     {
-        if (currentInterObjScript.itemType == InteractableObject.ItemType.Info)
+        if(currentInterObjScript.itemType == InteractableObject.ItemType.Info)
+        {
+            currentInterObjScript.Info();
+        }
+        if(currentInterObjScript.itemType == InteractableObject.ItemType.Pickup)
+        {
+            if(currentInterObj.name == "Coin")
             {
-                currentInterObjScript.Info();
+                 coinCount += 1;
             }
-            if (currentInterObjScript.itemType == InteractableObject.ItemType.Pickup)
-            {
-                if(currentInterObj.name == "Coin")
-                {
-                    coinCount += 1;
-                }
-                currentInterObjScript.Pickup();
-            }
+            currentInterObjScript.Pickup();
+        }
+        if(currentInterObjScript.itemType == InteractableObject.ItemType.Talks)
+        {
+            currentInterObjScript.Talks();
+        }
     }
 }

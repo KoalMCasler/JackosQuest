@@ -2,16 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
     public GameObject dialogueUI;
-    public Text dialogueText;
+    public TextMeshProUGUI dialogueText;
     public GameObject player;
     public Animator animator;   
-
     private Queue<string> dialogueQueue;
-    
     
     void Start()
     {
@@ -23,14 +22,10 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueQueue.Clear();
         dialogueUI.SetActive(true);
-
         player.GetComponent<CharacterController2D>().enabled = false;
         player.GetComponent<Interaction>().enabled = false;
-
-        animator.SetFloat("Speed", 0);
         player.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
-
-        foreach (string currentLine in sentences)
+        foreach(string currentLine in sentences)
         {
             dialogueQueue.Enqueue(currentLine);
         }
@@ -40,10 +35,9 @@ public class DialogueManager : MonoBehaviour
 
     public void DisplayNextSentence()
     {
-        if (dialogueQueue.Count == 0)
+        if(dialogueQueue.Count == 0)
         {
             EndDialogue();
-            //Debug.Log("there is nothing left in the queue...");
             return;
         }
 
@@ -56,7 +50,6 @@ public class DialogueManager : MonoBehaviour
     {
         dialogueQueue.Clear();
         dialogueUI.SetActive(false);
-
         player.GetComponent<CharacterController2D>().enabled = true;
         player.GetComponent<Interaction>().enabled = true;
     }
