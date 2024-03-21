@@ -837,7 +837,7 @@ MonoBehaviour:
   dialogueUI: {fileID: 276215434}
   dialogueText: {fileID: 1783954260}
   player: {fileID: 2606200303743098453}
-  animator: {fileID: 8439209752786588429}
+  playerAnim: {fileID: 0}
 --- !u!4 &972746986
 Transform:
   m_ObjectHideFlags: 0
