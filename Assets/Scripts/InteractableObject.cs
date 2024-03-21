@@ -34,7 +34,8 @@ public class InteractableObject : MonoBehaviour
     public void Pickup()
     {
         Debug.Log("Picking up " + this.name);
-        this.gameObject.SetActive(false);      
+        this.gameObject.SetActive(false);   
+        StartCoroutine(ShowInfo(message, 0.5f));   
     }
     public void Talks()
     {
