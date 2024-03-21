@@ -1,4 +1,3 @@
 Credits:
 
-New tileset : Pixel Art Top Down - Basic (Standard unity asset store EULA) src: https://assetstore.unity.com/packages/2d/environments/pixel-art-top-down-basic-187605
-Spinning coin : 2D animated coin (Standard unity asset store EULA) src:https://assetstore.unity.com/packages/2d/environments/2d-animated-coin-2d-rpk-22009
+All New assets : Pixel Art Top Down - Basic (Standard unity asset store EULA) src: https://assetstore.unity.com/packages/2d/environments/pixel-art-top-down-basic-187605
