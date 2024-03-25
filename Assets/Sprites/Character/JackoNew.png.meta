@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ae80bc439e8f7d248939cfae6b951492
+guid: 71fd71f5e7891554c975ca8af22d78d5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -81,6 +81,19 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -110,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_0
+      name: JackoNew_0
       rect:
         serializedVersion: 2
         x: 0
@@ -124,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aff5a3f6cfd93b141b3b235dd43033c5
-      internalID: 636244310
+      spriteID: 8e451780f35413142ad620ef39f27fce
+      internalID: 448639366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_1
+      name: JackoNew_1
       rect:
         serializedVersion: 2
         x: 64
@@ -145,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8f35d70c77f194418a4ffdabe30cd90
-      internalID: 308618252
+      spriteID: b1283543d9bf5084390d849b6ff417f5
+      internalID: -2056060349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_2
+      name: JackoNew_2
       rect:
         serializedVersion: 2
         x: 128
@@ -166,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79a8e58f7445513409ae431b25caf8ed
-      internalID: 1040208558
+      spriteID: 23f420fb1b592a549a1e9d5165f486d4
+      internalID: 1446914952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_3
+      name: JackoNew_3
       rect:
         serializedVersion: 2
         x: 192
@@ -187,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8931187df184be2478fd6dc7c3632ad9
-      internalID: -1259615888
+      spriteID: 55d42514b7238454b837b737c519f208
+      internalID: 111080649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_4
+      name: JackoNew_4
       rect:
         serializedVersion: 2
         x: 256
@@ -208,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c404380b4bc3704287f1a1bc21defc5
-      internalID: -1310327727
+      spriteID: 6bcb318217b42e84fa497e252b3aa5d8
+      internalID: -2006004594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_5
+      name: JackoNew_5
       rect:
         serializedVersion: 2
         x: 320
@@ -229,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f059dffd33571ec41be9eea974ba674f
-      internalID: -1551387958
+      spriteID: 7211f3f8f651cca4c92245a303a4e886
+      internalID: -281019768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_6
+      name: JackoNew_6
       rect:
         serializedVersion: 2
         x: 384
@@ -250,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9675e3b9bb571dd40afec7c25fd9ea03
-      internalID: -1104740021
+      spriteID: 4d98c27dd6a47b64597022377e374614
+      internalID: 1377474407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_7
+      name: JackoNew_7
       rect:
         serializedVersion: 2
         x: 448
@@ -271,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b07aebb2c46b83347beb74fe4e59a64b
-      internalID: -1367825676
+      spriteID: addbedd57decc8041b60912d4404ad56
+      internalID: 468520500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_8
+      name: JackoNew_8
       rect:
         serializedVersion: 2
         x: 0
@@ -292,14 +305,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 779de77fccc900340bbe94d4c1c7e662
-      internalID: 1845445939
+      spriteID: e06f79be3b75bde46b10f473c1f73e60
+      internalID: -1076226665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_9
+      name: JackoNew_9
       rect:
         serializedVersion: 2
         x: 64
@@ -313,14 +326,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 454f96765eaac2d4997065c5ef246ec6
-      internalID: -1315784614
+      spriteID: bd57c598f8415914cbb5a7e2093eb398
+      internalID: 822058476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_10
+      name: JackoNew_10
       rect:
         serializedVersion: 2
         x: 128
@@ -334,14 +347,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: af6fe7ba678abaa47916bccfe5f89ae9
-      internalID: 324957657
+      spriteID: 90480e0d22828c74cb7dac5d2422e2a5
+      internalID: -1619747799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_11
+      name: JackoNew_11
       rect:
         serializedVersion: 2
         x: 192
@@ -355,14 +368,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b7de2e9b602c954ab29c8b6f3c691fa
-      internalID: 378746561
+      spriteID: ec9a7f889bc78574aae65b4d46fc68e7
+      internalID: -806924687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_12
+      name: JackoNew_12
       rect:
         serializedVersion: 2
         x: 256
@@ -376,14 +389,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6dcf86c9bf7787409751b7a1f1e966d
-      internalID: 1219414182
+      spriteID: 78e1e0014bea0be4f80e7cc6f7e9703a
+      internalID: 2141737283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_13
+      name: JackoNew_13
       rect:
         serializedVersion: 2
         x: 320
@@ -397,14 +410,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29b2df45451a4ee45b95b6c8d0d3b2bf
-      internalID: -35559942
+      spriteID: d23f825f975282a46b0e22e399960540
+      internalID: -1064102889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_14
+      name: JackoNew_14
       rect:
         serializedVersion: 2
         x: 384
@@ -418,14 +431,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad6141693765e764180d08c9a2d99d0a
-      internalID: 1536830678
+      spriteID: a98d4c63d05aa93488b4eeaca513daf9
+      internalID: -1849905851
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_15
+      name: JackoNew_15
       rect:
         serializedVersion: 2
         x: 0
@@ -439,14 +452,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 002524ecaf418ec4a98ec45b86e64d44
-      internalID: -174365344
+      spriteID: 4c8533a226bfb034cb641a93b1539b48
+      internalID: 1474423713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_16
+      name: JackoNew_16
       rect:
         serializedVersion: 2
         x: 64
@@ -460,14 +473,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23affbc017a55f04b970bc5c7e836cc3
-      internalID: -1911008333
+      spriteID: 4c97083b0672e3146a0b57fc288949a9
+      internalID: -967555016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_17
+      name: JackoNew_17
       rect:
         serializedVersion: 2
         x: 128
@@ -481,14 +494,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c6a7ab0fbc09734abc6ef8f5032739a
-      internalID: -1388600102
+      spriteID: ced0b9ac3ff76a74eae22e18086411eb
+      internalID: 1698008841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_18
+      name: JackoNew_18
       rect:
         serializedVersion: 2
         x: 192
@@ -502,14 +515,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2c051a318516bb418497e96b364305f
-      internalID: -1855382354
+      spriteID: fb7626cc5fa3c2440974668b7956af54
+      internalID: 1142623633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_19
+      name: JackoNew_19
       rect:
         serializedVersion: 2
         x: 256
@@ -523,14 +536,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99955dd16b93a574db36c001e06f3231
-      internalID: -417690004
+      spriteID: e0100d2dd85cb2b4fbaeda6ec573ce08
+      internalID: 1532412572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_20
+      name: JackoNew_20
       rect:
         serializedVersion: 2
         x: 320
@@ -544,14 +557,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83efcd4f8f1a2fc4db75b39612ddca75
-      internalID: -895985448
+      spriteID: 8ab0d943a45babe46aa863f12d259969
+      internalID: 995607198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_21
+      name: JackoNew_21
       rect:
         serializedVersion: 2
         x: 384
@@ -565,14 +578,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d93e26cef2dabb347a0e2bf20001b6f7
-      internalID: 1216725541
+      spriteID: a52d2d0336234b94cbc7b3198b3a3a91
+      internalID: -1830773195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_22
+      name: JackoNew_22
       rect:
         serializedVersion: 2
         x: 0
@@ -586,14 +599,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a0d41398ac7a4f45af4caa27417eb48
-      internalID: -904621720
+      spriteID: a8911a5361b267c499313e65053af187
+      internalID: 682359849
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_23
+      name: JackoNew_23
       rect:
         serializedVersion: 2
         x: 64
@@ -607,14 +620,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca0970b69a46e2e4db89c6cdf2de6227
-      internalID: -344496365
+      spriteID: 67c4520dbc551d244a51e1aa084d546f
+      internalID: -64443503
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_24
+      name: JackoNew_24
       rect:
         serializedVersion: 2
         x: 128
@@ -628,14 +641,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e6bbf61e028f4c469b2fc074ef30b8c
-      internalID: 1979567647
+      spriteID: e92d245849b569e409adfe21e47d418f
+      internalID: 699779324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_25
+      name: JackoNew_25
       rect:
         serializedVersion: 2
         x: 192
@@ -649,14 +662,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9311c6739c693448919f78bdea52692
-      internalID: -571832168
+      spriteID: 6242c7b74e4aac940905cd8db0a577b2
+      internalID: -50507039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_26
+      name: JackoNew_26
       rect:
         serializedVersion: 2
         x: 256
@@ -670,14 +683,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aec56a13254eb284ba51b35b26c63791
-      internalID: -1699316611
+      spriteID: 48425db56b7d3d5458dd954ec2399ca3
+      internalID: 1664171711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_27
+      name: JackoNew_27
       rect:
         serializedVersion: 2
         x: 320
@@ -691,14 +704,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c4527f068c52f14d862541e682f074c
-      internalID: -663309159
+      spriteID: 0cde55329c27eb94baaa14b3096120c6
+      internalID: -1185195434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_28
+      name: JackoNew_28
       rect:
         serializedVersion: 2
         x: 384
@@ -712,14 +725,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38da7f2d701ab7e4f920a3607611301e
-      internalID: 1749012692
+      spriteID: 8713c2b43c684eb4db6de09183fbc9b0
+      internalID: 150453634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_29
+      name: JackoNew_29
       rect:
         serializedVersion: 2
         x: 0
@@ -733,14 +746,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59a0f3b9df3874b4cbd066b5f9ca2424
-      internalID: -122285601
+      spriteID: c68cf51c2ba30284db6711a363bcbf15
+      internalID: -395377671
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_30
+      name: JackoNew_30
       rect:
         serializedVersion: 2
         x: 64
@@ -754,14 +767,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b34d3df652cf7a048a1fd176cd38a97b
-      internalID: 1966957358
+      spriteID: 23dc4319d86fdf74d976b2a625122341
+      internalID: -1266314020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_31
+      name: JackoNew_31
       rect:
         serializedVersion: 2
         x: 128
@@ -775,14 +788,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfe93b034ed0e47438607d609a206eee
-      internalID: 2061611643
+      spriteID: abdc64e43f6c5274794eb76a37cb9744
+      internalID: 1416261025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_32
+      name: JackoNew_32
       rect:
         serializedVersion: 2
         x: 192
@@ -796,14 +809,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee40e80775660ff4f99c298cad53ed5b
-      internalID: -778392336
+      spriteID: d44ebb54b12526548a5bfc6a2ecb5b80
+      internalID: 1163078424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_33
+      name: JackoNew_33
       rect:
         serializedVersion: 2
         x: 256
@@ -817,14 +830,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67687f2f74d9f114f9c7b93df332ff2a
-      internalID: 881357581
+      spriteID: d4f50be98e7d4b44aae1007c65fabd2e
+      internalID: 1755937453
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_34
+      name: JackoNew_34
       rect:
         serializedVersion: 2
         x: 320
@@ -838,14 +851,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 964241f224a47474b8335daed097e96d
-      internalID: -1938227155
+      spriteID: 7714858e3a65df44b897081ca4b2edd8
+      internalID: 655379565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_35
+      name: JackoNew_35
       rect:
         serializedVersion: 2
         x: 384
@@ -859,14 +872,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 455df04860d43aa459bc209536a94a63
-      internalID: -1013078432
+      spriteID: f56e76be96b1a12429b0c3855e29f436
+      internalID: -244881915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_36
+      name: JackoNew_36
       rect:
         serializedVersion: 2
         x: 448
@@ -880,14 +893,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a69ccb30b39ef94198e92f3e2efea98
-      internalID: 503662405
+      spriteID: dc6cf6da94000994ba34a6c9b1ebb823
+      internalID: 330478996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_37
+      name: JackoNew_37
       rect:
         serializedVersion: 2
         x: 0
@@ -901,14 +914,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc1c2e892b7ee974ea1df8e307ea4dbd
-      internalID: -1073953029
+      spriteID: 8987268edb624fb4e948fe1dc9352fe4
+      internalID: -1523458865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_38
+      name: JackoNew_38
       rect:
         serializedVersion: 2
         x: 64
@@ -922,14 +935,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3038cdb0366581a479b9bfefd3c46b63
-      internalID: 166452410
+      spriteID: 6cb327c9c6ad5a549ba0e467b41ec1d9
+      internalID: 520378796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_39
+      name: JackoNew_39
       rect:
         serializedVersion: 2
         x: 128
@@ -943,14 +956,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4f0e251e85ecb84a8b89f74e83564c0
-      internalID: -550819563
+      spriteID: c1b61259544b1444ea2a245ceaac815d
+      internalID: -1676219183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_40
+      name: JackoNew_40
       rect:
         serializedVersion: 2
         x: 192
@@ -964,14 +977,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb35521df3f44404eae5ba4b9e467a98
-      internalID: -2068573044
+      spriteID: 1f4c38fbf6ed7964fa0d45a366812403
+      internalID: -1638932569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_41
+      name: JackoNew_41
       rect:
         serializedVersion: 2
         x: 256
@@ -985,14 +998,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2625edefb9f8e2f43976b3831698f261
-      internalID: 864776583
+      spriteID: 22433f0c95daa724cb00d6a54b41f587
+      internalID: 595601995
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_42
+      name: JackoNew_42
       rect:
         serializedVersion: 2
         x: 320
@@ -1006,14 +1019,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a985bb6bb758e945805197f176998cc
-      internalID: -578081830
+      spriteID: 1130f97873d3bb94497b02476b2e5f4b
+      internalID: -490145080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_43
+      name: JackoNew_43
       rect:
         serializedVersion: 2
         x: 384
@@ -1027,14 +1040,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f96b7cfb44f9c84aad37aff52968dfc
-      internalID: -1173669538
+      spriteID: eacc232904a2f2740a60d5362cefbe5a
+      internalID: -1481970716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_44
+      name: JackoNew_44
       rect:
         serializedVersion: 2
         x: 448
@@ -1048,14 +1061,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3adc6746e0267141b2d05f7f301e8dd
-      internalID: 641641474
+      spriteID: 32610229e62baa44c9cf19e26e8a9eda
+      internalID: -799358445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_45
+      name: JackoNew_45
       rect:
         serializedVersion: 2
         x: 0
@@ -1069,14 +1082,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79be79dd73d9128438b08261b27da4ad
-      internalID: 989045128
+      spriteID: bf7e5dc96b7158749a7febe4916800aa
+      internalID: -230884555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_46
+      name: JackoNew_46
       rect:
         serializedVersion: 2
         x: 64
@@ -1090,14 +1103,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fd3e4b9cf73b8742a400c85e3f5d18e
-      internalID: 964858322
+      spriteID: 39f8377ce31292d4a9c16dfec516ff14
+      internalID: 895164351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_47
+      name: JackoNew_47
       rect:
         serializedVersion: 2
         x: 128
@@ -1111,14 +1124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5648d99badc658646b9081a1643ab0e8
-      internalID: 2068961203
+      spriteID: 3bc4e40f02fec2747a7faf003a2e060b
+      internalID: 1022879711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_48
+      name: JackoNew_48
       rect:
         serializedVersion: 2
         x: 192
@@ -1132,14 +1145,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a38b7e14c69e46848b678b93ed40dc73
-      internalID: -1573322376
+      spriteID: ec9884217220b4645beaba03959909e0
+      internalID: -320383407
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_49
+      name: JackoNew_49
       rect:
         serializedVersion: 2
         x: 256
@@ -1153,14 +1166,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fb30489ad328344b95f38b10d9bf199
-      internalID: -388537484
+      spriteID: 6907ac4402a3c5244bccc956f9b38f47
+      internalID: 1931930741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_50
+      name: JackoNew_50
       rect:
         serializedVersion: 2
         x: 320
@@ -1174,14 +1187,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f90b51f2136d46340a40d566d8f257b1
-      internalID: 362036831
+      spriteID: 821c7509f1fd1b145a5d010ca061122e
+      internalID: 1882982844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_51
+      name: JackoNew_51
       rect:
         serializedVersion: 2
         x: 384
@@ -1195,14 +1208,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35e1d1f246c9c764384b722833065f71
-      internalID: -1301217257
+      spriteID: eab663195544f64419b1d0e1709403a4
+      internalID: -523781319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_52
+      name: JackoNew_52
       rect:
         serializedVersion: 2
         x: 448
@@ -1216,14 +1229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7eeced4cbc9d35341b88ac470c4c0e9b
-      internalID: 2106926541
+      spriteID: 5b9724e3a3360f4469a376482efdb8ac
+      internalID: -493388249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_53
+      name: JackoNew_53
       rect:
         serializedVersion: 2
         x: 0
@@ -1237,14 +1250,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c34ebefffcebf894cb48418063f29f2f
-      internalID: -2137216087
+      spriteID: 80b237cb602354b4e991c5737f3ba778
+      internalID: 1194912159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_54
+      name: JackoNew_54
       rect:
         serializedVersion: 2
         x: 64
@@ -1258,14 +1271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e76f2dcd965e411439837530b896e85e
-      internalID: 439652379
+      spriteID: 1c437a5a3fefea54b8f805fe64d2a4a0
+      internalID: 1971072143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_55
+      name: JackoNew_55
       rect:
         serializedVersion: 2
         x: 128
@@ -1279,14 +1292,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b633a3fe029522458800e48e919d9a9
-      internalID: 1339202019
+      spriteID: 10733dd74c6fdb245b072580ddbaa710
+      internalID: -14870947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_56
+      name: JackoNew_56
       rect:
         serializedVersion: 2
         x: 192
@@ -1300,14 +1313,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fa8a8409557f6a4dafa7f22833f2557
-      internalID: 1151922013
+      spriteID: 8bd6b37ea479325469e98fa456df4bbb
+      internalID: 1815278377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_57
+      name: JackoNew_57
       rect:
         serializedVersion: 2
         x: 256
@@ -1321,14 +1334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8be607723727220488b8a98dc973a00e
-      internalID: 1203914727
+      spriteID: 7d4ffcf84487cdc47891dd6b361e8196
+      internalID: 235327095
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_58
+      name: JackoNew_58
       rect:
         serializedVersion: 2
         x: 320
@@ -1342,14 +1355,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 173fcf7849ce30540953d1533132c268
-      internalID: -607443886
+      spriteID: 13a422b36b0adfa4e946b9a36d63ec8e
+      internalID: 1810038731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_59
+      name: JackoNew_59
       rect:
         serializedVersion: 2
         x: 384
@@ -1363,14 +1376,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 587f4a8dcabafb64bb7aa1d7e2b802e5
-      internalID: -1749428060
+      spriteID: 534cc24b052dc6841b4edec59eec3696
+      internalID: 653915589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_60
+      name: JackoNew_60
       rect:
         serializedVersion: 2
         x: 448
@@ -1384,14 +1397,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89eadb68d3161cd409fb72c719061e89
-      internalID: 510296460
+      spriteID: 470a3078946ca8d459ba34f25ffa6e14
+      internalID: -973816615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_61
+      name: JackoNew_61
       rect:
         serializedVersion: 2
         x: 0
@@ -1405,14 +1418,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28aa55859de05dc469adb8e2da1679e7
-      internalID: -1597556592
+      spriteID: 2f6c224ff41250044b6bd81f62b3d6e9
+      internalID: -1648556713
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_62
+      name: JackoNew_62
       rect:
         serializedVersion: 2
         x: 64
@@ -1426,14 +1439,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72a7bb3a314d2834db37c4fb25a484e3
-      internalID: -1544744541
+      spriteID: 9cdc6d09aac4998418f9605a06097788
+      internalID: 134179082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_63
+      name: JackoNew_63
       rect:
         serializedVersion: 2
         x: 128
@@ -1447,14 +1460,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac70dc864dac3554e829e638ca8ede73
-      internalID: -472560516
+      spriteID: 5cea69066ad4c194390daf519825c3a6
+      internalID: 300281665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_64
+      name: JackoNew_64
       rect:
         serializedVersion: 2
         x: 192
@@ -1468,14 +1481,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f7e90f38962233428707b0d0c7a828c
-      internalID: -1098985429
+      spriteID: 7e9b8f5cc55419f4481dda32bb664e48
+      internalID: 503280392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_65
+      name: JackoNew_65
       rect:
         serializedVersion: 2
         x: 256
@@ -1489,14 +1502,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fab68b07c332fb74cba6dc5411b85224
-      internalID: 1890905010
+      spriteID: b00d18f153c97674383beedad8b1f0b7
+      internalID: 943876016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_66
+      name: JackoNew_66
       rect:
         serializedVersion: 2
         x: 320
@@ -1510,14 +1523,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfd7d14eb8c885a41918b210ae8d12ee
-      internalID: 1207992411
+      spriteID: 4252cfc2e38742f4a88b6d3c04cf3c21
+      internalID: -1714972920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_67
+      name: JackoNew_67
       rect:
         serializedVersion: 2
         x: 384
@@ -1531,14 +1544,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b381039a652a8c4c94c02ff24575b4d
-      internalID: 1496814004
+      spriteID: 0db4ccb63ce50c343bdfc474546b9552
+      internalID: 1060428401
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_68
+      name: JackoNew_68
       rect:
         serializedVersion: 2
         x: 448
@@ -1552,14 +1565,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f21738271c13df747be2ca4faa6b36d5
-      internalID: 930784387
+      spriteID: 76dd038c6c1d77647aef66c55bc095f2
+      internalID: -1398478893
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_69
+      name: JackoNew_69
       rect:
         serializedVersion: 2
         x: 512
@@ -1573,14 +1586,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f291c5e4b60f5a4888eeef1098ed7a8
-      internalID: 1377716178
+      spriteID: 206aa5e8ef1fa934891fee6a9dac34b6
+      internalID: -218027963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_70
+      name: JackoNew_70
       rect:
         serializedVersion: 2
         x: 0
@@ -1594,14 +1607,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ec2c74704c8d7c4abd62d8e9f7c511e
-      internalID: -797986605
+      spriteID: 4e621fbe7ff60154891d7bf35562ae2b
+      internalID: 1379786310
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_71
+      name: JackoNew_71
       rect:
         serializedVersion: 2
         x: 64
@@ -1615,14 +1628,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 489f43bd3ca735b459dc3199f9707807
-      internalID: 2045720345
+      spriteID: 1bb7063371f24ed478246e828e32e010
+      internalID: 1351919817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_72
+      name: JackoNew_72
       rect:
         serializedVersion: 2
         x: 128
@@ -1636,14 +1649,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a99c8e0e58abf24bac321567840aa32
-      internalID: -1571688970
+      spriteID: fd0291dc659fe724688a9fff39980ffd
+      internalID: 1816914696
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_73
+      name: JackoNew_73
       rect:
         serializedVersion: 2
         x: 192
@@ -1657,14 +1670,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1d1b5bbb6062bf4d860ecd359b318ea
-      internalID: -474408543
+      spriteID: e4c56c773bbdbfc4f858fdad7e73b30f
+      internalID: 1166068945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_74
+      name: JackoNew_74
       rect:
         serializedVersion: 2
         x: 256
@@ -1678,14 +1691,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8f9b4871aa7ec549b49023964c3ee58
-      internalID: -32004635
+      spriteID: b5942c93cc59dee47b56da40b278c602
+      internalID: 46806699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_75
+      name: JackoNew_75
       rect:
         serializedVersion: 2
         x: 320
@@ -1699,14 +1712,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9b3b12010a81c74fa0330b35ba1059c
-      internalID: 490139405
+      spriteID: f2e37085643d2d54686cfde596ce558c
+      internalID: 637077970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_76
+      name: JackoNew_76
       rect:
         serializedVersion: 2
         x: 384
@@ -1720,14 +1733,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd3c5f21c651942418f226a63c5852af
-      internalID: 1321475667
+      spriteID: 2c60e9228b46d304f974dc61f35703a6
+      internalID: 1384995742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_77
+      name: JackoNew_77
       rect:
         serializedVersion: 2
         x: 448
@@ -1741,14 +1754,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d43695f14f151614bb9bf516a5b7c308
-      internalID: 1537455232
+      spriteID: 852e06256d95c324cb4fefcfe756ce37
+      internalID: -1326253796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_78
+      name: JackoNew_78
       rect:
         serializedVersion: 2
         x: 512
@@ -1762,14 +1775,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f31d5f528ba21b843b6a9a55549ea5fb
-      internalID: -1588194359
+      spriteID: 097fcc7f9701593499650b3f8dc80866
+      internalID: 205029700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_79
+      name: JackoNew_79
       rect:
         serializedVersion: 2
         x: 0
@@ -1783,14 +1796,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7481b4a3f4d5d046ac661d5ca0549e3
-      internalID: -2058960446
+      spriteID: 16a73738fd7bd4e4e8758b078a04e747
+      internalID: 1823317020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_80
+      name: JackoNew_80
       rect:
         serializedVersion: 2
         x: 64
@@ -1804,14 +1817,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc290c7a87402af4c9d4aa6bbd94972b
-      internalID: 1301019548
+      spriteID: c99f3840c91f2854186eba13b7c02c9b
+      internalID: -682291834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_81
+      name: JackoNew_81
       rect:
         serializedVersion: 2
         x: 128
@@ -1825,14 +1838,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bce60bc9994f474d850e148490d21e6
-      internalID: 205362155
+      spriteID: 3bfb3f71b048bd54389c5a8c9c6edde2
+      internalID: -1498446102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_82
+      name: JackoNew_82
       rect:
         serializedVersion: 2
         x: 192
@@ -1846,14 +1859,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 947aaebce69ae844587563f75b810064
-      internalID: -1472861337
+      spriteID: 743188288aa2c91428ab88a5d1c84beb
+      internalID: 1988810380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_83
+      name: JackoNew_83
       rect:
         serializedVersion: 2
         x: 256
@@ -1867,14 +1880,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0209bd1fbb58e84da562bca2ab772ce
-      internalID: 1934297755
+      spriteID: 93f24c1c95e2481479b9b2c93707a27c
+      internalID: -735702740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_84
+      name: JackoNew_84
       rect:
         serializedVersion: 2
         x: 320
@@ -1888,14 +1901,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe509adbf76ec8a4ea65caf8b364bb80
-      internalID: -1350385759
+      spriteID: ae560910fa9cda044896cfb3bf4208e1
+      internalID: 1889559410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_85
+      name: JackoNew_85
       rect:
         serializedVersion: 2
         x: 384
@@ -1909,14 +1922,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddc5604d04a065e44afef2c39f347612
-      internalID: -226637068
+      spriteID: 42d51c5ff3799884cab4167cfbcfa9db
+      internalID: -2027170088
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_86
+      name: JackoNew_86
       rect:
         serializedVersion: 2
         x: 448
@@ -1930,14 +1943,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25be8697c5adff048af63cdf17a6f711
-      internalID: -1297687505
+      spriteID: 1b68989c6ab9c424d8bdc9215f655ccc
+      internalID: -670464481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_87
+      name: JackoNew_87
       rect:
         serializedVersion: 2
         x: 512
@@ -1951,14 +1964,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06caa713a5627dc4e947df5a75d36afd
-      internalID: 147255979
+      spriteID: b12b541243668aa4abfa95f521993d9a
+      internalID: 1974283587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_88
+      name: JackoNew_88
       rect:
         serializedVersion: 2
         x: 0
@@ -1972,14 +1985,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a1e1b694ff38254439f902dbf03cc1cc
-      internalID: -1781147875
+      spriteID: 3a835dfbf54ab7d4fae9b4f3f7d16dc3
+      internalID: -921962028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_89
+      name: JackoNew_89
       rect:
         serializedVersion: 2
         x: 64
@@ -1993,14 +2006,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f2b3109accd7854c932ef3f56835e20
-      internalID: -1303538115
+      spriteID: 6d975fab17f5fc04b9896a434b2c7454
+      internalID: 1852809260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_90
+      name: JackoNew_90
       rect:
         serializedVersion: 2
         x: 128
@@ -2014,14 +2027,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 583cffe97b64a914b9884de1fed2f7b7
-      internalID: -1734597938
+      spriteID: eadef3a331a0955468f1d7c0488ed3cb
+      internalID: -1639527329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_91
+      name: JackoNew_91
       rect:
         serializedVersion: 2
         x: 192
@@ -2035,14 +2048,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1ca865abab95af4fbde5c78166f37ae
-      internalID: 1200263514
+      spriteID: e82db39b7a27b884b9546d77a93fad27
+      internalID: 1210452500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_92
+      name: JackoNew_92
       rect:
         serializedVersion: 2
         x: 256
@@ -2056,14 +2069,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4b49f9ed39651b42a3e9137c9270ec4
-      internalID: 1548512468
+      spriteID: 5d32c7c14831fb24c8539b81d58b2f71
+      internalID: 194694116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_93
+      name: JackoNew_93
       rect:
         serializedVersion: 2
         x: 320
@@ -2077,14 +2090,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9926b2291a16d44b9cbe0f68ac812b2
-      internalID: -1106030016
+      spriteID: eac06f05dbf41e34893e588d654e8ab1
+      internalID: 583617757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_94
+      name: JackoNew_94
       rect:
         serializedVersion: 2
         x: 384
@@ -2098,14 +2111,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41f8b43765499d14caa0ae10d17dc62d
-      internalID: -377516589
+      spriteID: 4e6a6d990e8059c4182fd5c80cc08339
+      internalID: 509289569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_95
+      name: JackoNew_95
       rect:
         serializedVersion: 2
         x: 448
@@ -2119,14 +2132,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd860c54eb1af4a4daae577dfdc363ef
-      internalID: 1688859999
+      spriteID: 94599f8a8c1a75140ade6bf32dea4bc9
+      internalID: -1759341833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_96
+      name: JackoNew_96
       rect:
         serializedVersion: 2
         x: 512
@@ -2140,14 +2153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7afc8b1356593954d9909f3f9fe0d83e
-      internalID: 1547682470
+      spriteID: 6a13ec2305f1f55438ab55cae3d01501
+      internalID: 1224083423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_97
+      name: JackoNew_97
       rect:
         serializedVersion: 2
         x: 0
@@ -2161,14 +2174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 792f207617713a140a96d15a6624d2f7
-      internalID: 206900972
+      spriteID: 8b92efddd8b18134dadcad4c4503546e
+      internalID: -2035564392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_98
+      name: JackoNew_98
       rect:
         serializedVersion: 2
         x: 64
@@ -2182,14 +2195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cb0be8fb480af546b23fa20b2a9df07
-      internalID: 1498920160
+      spriteID: 6ea30943eafae4645bf7c421a81ca197
+      internalID: 120941371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_99
+      name: JackoNew_99
       rect:
         serializedVersion: 2
         x: 128
@@ -2203,14 +2216,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 427ec333c71598f4fb10c6d647401663
-      internalID: 1285821247
+      spriteID: cba04f49f8185cf4d8e24a869ddd6de9
+      internalID: -879009029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_100
+      name: JackoNew_100
       rect:
         serializedVersion: 2
         x: 192
@@ -2224,14 +2237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f95615bbfa06c6648bb06147432ad170
-      internalID: 2138323984
+      spriteID: f2d79c1a3c8a0264b944eb78f75240c8
+      internalID: 1005580288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_101
+      name: JackoNew_101
       rect:
         serializedVersion: 2
         x: 256
@@ -2245,14 +2258,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85e65d46dee7a76449e673f39f91f35a
-      internalID: 1802894008
+      spriteID: fbfb3a1f739b6ec46a770efde267dbcc
+      internalID: -1781097660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_102
+      name: JackoNew_102
       rect:
         serializedVersion: 2
         x: 320
@@ -2266,14 +2279,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b56f4761d7563c419aed45af9b05a4e
-      internalID: -1998350418
+      spriteID: 15848d8ec514bae46b315413096e79c5
+      internalID: 1900292015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_103
+      name: JackoNew_103
       rect:
         serializedVersion: 2
         x: 0
@@ -2287,14 +2300,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22e41e4cbf0af2e4cabd4e472a5f5a63
-      internalID: 107829967
+      spriteID: 8821348568f05284e8e335451e637180
+      internalID: -542691623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_104
+      name: JackoNew_104
       rect:
         serializedVersion: 2
         x: 64
@@ -2308,14 +2321,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49dce85173722bc40ab1f0795b70c571
-      internalID: 1231459838
+      spriteID: b05b9dc13767d6242ad556a785f8d4f9
+      internalID: 9951566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_105
+      name: JackoNew_105
       rect:
         serializedVersion: 2
         x: 128
@@ -2329,14 +2342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38f1605db7515314f8bd787d6ed7b1f2
-      internalID: 350386593
+      spriteID: b772800bd925c5945ba0e42c5264f4f4
+      internalID: -993007002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_106
+      name: JackoNew_106
       rect:
         serializedVersion: 2
         x: 192
@@ -2350,14 +2363,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ba829c1af49c744e941c254a081f75d
-      internalID: -329660430
+      spriteID: 15abb80b0dca61247918f9d459f09363
+      internalID: -180595853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_107
+      name: JackoNew_107
       rect:
         serializedVersion: 2
         x: 256
@@ -2371,14 +2384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6281bc15730559d47b5314bda906b448
-      internalID: 1905745936
+      spriteID: e8a20811f96037f4193509085250fdcd
+      internalID: 1422045329
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_108
+      name: JackoNew_108
       rect:
         serializedVersion: 2
         x: 320
@@ -2392,14 +2405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 308bbf06a2e6f81488eadcdcac4e0788
-      internalID: 999395815
+      spriteID: bd6c62ad0a6bb1942b2e1fc1208dfb67
+      internalID: 110202767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_109
+      name: JackoNew_109
       rect:
         serializedVersion: 2
         x: 0
@@ -2413,14 +2426,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 438c24b8fed1f5644a269a04c5d6e5b0
-      internalID: 1089509939
+      spriteID: 5b952118f6d6e5948bb1e27f270e9e8b
+      internalID: -920199020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_110
+      name: JackoNew_110
       rect:
         serializedVersion: 2
         x: 64
@@ -2434,14 +2447,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2d8ac2b233ff80468c1d0ebc5f1f4c4
-      internalID: -882259665
+      spriteID: 748609246ba44d740becaf73a5b13bb8
+      internalID: -859915393
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_111
+      name: JackoNew_111
       rect:
         serializedVersion: 2
         x: 128
@@ -2455,14 +2468,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e0854d231712014b8cf93902c10cd3f
-      internalID: -263789656
+      spriteID: 9332a3bf74da9a647b133d65af5a2932
+      internalID: -1648332077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_112
+      name: JackoNew_112
       rect:
         serializedVersion: 2
         x: 192
@@ -2476,14 +2489,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ff938be2f54b4749a8753864b72f93d
-      internalID: -1223704605
+      spriteID: da63a5ef7278d1b4382cd071c728350a
+      internalID: -1578778643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_113
+      name: JackoNew_113
       rect:
         serializedVersion: 2
         x: 256
@@ -2497,14 +2510,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eda4582c6392f144ba0ea9828cbfdf9e
-      internalID: -1126496745
+      spriteID: 51f9f3151a7296247ba5b3fe0b393e3c
+      internalID: 1913596715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_114
+      name: JackoNew_114
       rect:
         serializedVersion: 2
         x: 320
@@ -2518,14 +2531,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 564527ba94fb06e4dabdcdda437f7592
-      internalID: -144376171
+      spriteID: 7e545d249a9048f4181ac5a730d46ad3
+      internalID: -1131692948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_115
+      name: JackoNew_115
       rect:
         serializedVersion: 2
         x: 0
@@ -2539,14 +2552,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5faf23408325f7d4aa56a2433a90c13d
-      internalID: -1942308176
+      spriteID: 2177cb88038b1ec46bee89bee7d2af09
+      internalID: -1832480470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_116
+      name: JackoNew_116
       rect:
         serializedVersion: 2
         x: 64
@@ -2560,14 +2573,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3ac201bdf626a4409b1645dd9a3a05b
-      internalID: 1042997939
+      spriteID: bb368db419cc62e4c9d9a01ed6882bda
+      internalID: 190177007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_117
+      name: JackoNew_117
       rect:
         serializedVersion: 2
         x: 128
@@ -2581,14 +2594,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c9b9d849802c2347b76a5544ec161e0
-      internalID: 45151614
+      spriteID: 7940db5976e81fc4bade6f8cd05735a5
+      internalID: -275532410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_118
+      name: JackoNew_118
       rect:
         serializedVersion: 2
         x: 192
@@ -2602,14 +2615,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b65d2d516dad414fa3a2b31183eb48c
-      internalID: 1487456156
+      spriteID: 003a3a24abc01cb4194a5f05090fd2c6
+      internalID: -189243497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_119
+      name: JackoNew_119
       rect:
         serializedVersion: 2
         x: 256
@@ -2623,14 +2636,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5fa342b97ae6a0458b23871ad0f7b66
-      internalID: -403919900
+      spriteID: e2bc73f82d8e2364789bcec6e979eed8
+      internalID: -863647351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_120
+      name: JackoNew_120
       rect:
         serializedVersion: 2
         x: 320
@@ -2644,14 +2657,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dd4f61754b216c47923539395bc180a
-      internalID: 1048475761
+      spriteID: b26aadfab0c46c642a59465d9abc45a1
+      internalID: -529261609
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_121
+      name: JackoNew_121
       rect:
         serializedVersion: 2
         x: 0
@@ -2665,14 +2678,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8b5060d96bdeec49a9da8ca2e0752ea
-      internalID: 1361780281
+      spriteID: 060eab75817759645b00e4bdffb6f723
+      internalID: 1392126774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_122
+      name: JackoNew_122
       rect:
         serializedVersion: 2
         x: 64
@@ -2686,14 +2699,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67ae0b1271bfd9f4d80c7b7487ec07cc
-      internalID: 1211003008
+      spriteID: 44a18658abf51b34ba2ee3ffd3682bd9
+      internalID: 1385747844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_123
+      name: JackoNew_123
       rect:
         serializedVersion: 2
         x: 128
@@ -2707,14 +2720,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a88a4574e729bf418396714d1fb1849
-      internalID: -789357705
+      spriteID: 8d43fcd942735694a962737eb1defab6
+      internalID: -436033755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_124
+      name: JackoNew_124
       rect:
         serializedVersion: 2
         x: 192
@@ -2728,14 +2741,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87ba9dfcf357e31429da672c3f8516f9
-      internalID: 1496511142
+      spriteID: 58cb97147e5ccdc4883b98f11e5e6c35
+      internalID: 1225538127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_125
+      name: JackoNew_125
       rect:
         serializedVersion: 2
         x: 256
@@ -2749,14 +2762,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0599c164877d2a4478b4cf78176dc60c
-      internalID: 815297394
+      spriteID: 8636cbc86f0311e49a2855320eadf54a
+      internalID: -445212253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_126
+      name: JackoNew_126
       rect:
         serializedVersion: 2
         x: 320
@@ -2770,14 +2783,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1214b27d55503e342a3d61253269ba9c
-      internalID: 1399668305
+      spriteID: e866865f25606814d930b0f72012fe25
+      internalID: -1290839689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_127
+      name: JackoNew_127
       rect:
         serializedVersion: 2
         x: 384
@@ -2791,14 +2804,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d7d7727afbe9044bbc24bb9514cf0c1
-      internalID: 64406461
+      spriteID: e35d3555ccd76d14abcd9c3a733018ef
+      internalID: 185915727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_128
+      name: JackoNew_128
       rect:
         serializedVersion: 2
         x: 448
@@ -2812,14 +2825,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4d2db3d9f7f2e0945b0fb475abc6d66b
-      internalID: 707262584
+      spriteID: 4d49daaed8506954c949c890205c4018
+      internalID: 838259991
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_129
+      name: JackoNew_129
       rect:
         serializedVersion: 2
         x: 512
@@ -2833,14 +2846,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91a1764e992180a44b700ccd831c1a5c
-      internalID: 2065166592
+      spriteID: aaebe513df8c7fd48bd039bdafe90f9a
+      internalID: -329953387
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_130
+      name: JackoNew_130
       rect:
         serializedVersion: 2
         x: 576
@@ -2854,14 +2867,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ae4aced380040047bece2f002db4223
-      internalID: 283769720
+      spriteID: 02d1dddd02e70fa4caa41e9a85c175c8
+      internalID: -369846172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_131
+      name: JackoNew_131
       rect:
         serializedVersion: 2
         x: 640
@@ -2875,14 +2888,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abe2461fa45b6514193412d2ba2a718b
-      internalID: -1032784482
+      spriteID: da475067ddc03ea4cbfb74ec7688ebcb
+      internalID: -1129413441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_132
+      name: JackoNew_132
       rect:
         serializedVersion: 2
         x: 704
@@ -2896,14 +2909,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebb4fa5c190c1bb4aa7a47dc58e6398c
-      internalID: 2053007208
+      spriteID: 8761da61b3a183f4cb09f9650c76da02
+      internalID: -2094374145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_133
+      name: JackoNew_133
       rect:
         serializedVersion: 2
         x: 768
@@ -2917,14 +2930,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b802b2889d369be4c9b64d22ac22ec49
-      internalID: -1685552112
+      spriteID: 03201dedddd10e54eaa680677a4a8eed
+      internalID: 181510556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_134
+      name: JackoNew_134
       rect:
         serializedVersion: 2
         x: 0
@@ -2938,14 +2951,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6df5f5db1d6936d449327a3fa1374a7c
-      internalID: -1511093647
+      spriteID: 25154004226670f4183671d98522cdb1
+      internalID: -1461026803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_135
+      name: JackoNew_135
       rect:
         serializedVersion: 2
         x: 64
@@ -2959,14 +2972,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a90fc05aa5b09a74289128318e99632c
-      internalID: -339062902
+      spriteID: baa02584074cd8f4cae14afccd7c591d
+      internalID: 1544697007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_136
+      name: JackoNew_136
       rect:
         serializedVersion: 2
         x: 128
@@ -2980,14 +2993,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60946cda80257e24b8743f0a329b1af3
-      internalID: 711644130
+      spriteID: bad6accc2a4bf6245b3910d445610684
+      internalID: 960224312
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_137
+      name: JackoNew_137
       rect:
         serializedVersion: 2
         x: 192
@@ -3001,14 +3014,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b8af6806cad7964081ba42d2836bd91
-      internalID: 609204044
+      spriteID: 2e917a8bc241c254ba422d318fc72d9c
+      internalID: 1676649225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_138
+      name: JackoNew_138
       rect:
         serializedVersion: 2
         x: 256
@@ -3022,14 +3035,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a1550058305af44dbaa10a3c9670f96
-      internalID: 1940490104
+      spriteID: d2b70eb4bc9bc974dbfb9f31e04a25e0
+      internalID: -1224970763
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_139
+      name: JackoNew_139
       rect:
         serializedVersion: 2
         x: 320
@@ -3043,14 +3056,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd084db4a07a5084fb83cd9b6a02e6bd
-      internalID: 2008197435
+      spriteID: 0aff621ff82c6894aa378f59bc7a8f17
+      internalID: -858815106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_140
+      name: JackoNew_140
       rect:
         serializedVersion: 2
         x: 384
@@ -3064,14 +3077,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff7a010b2f63349429340b03b2fdbcf1
-      internalID: -1503008072
+      spriteID: 97f3eda7e3687524d9f9e4faf39d900b
+      internalID: 1984397029
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_141
+      name: JackoNew_141
       rect:
         serializedVersion: 2
         x: 448
@@ -3085,14 +3098,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f516af1811b10a4f89adb24b3cac542
-      internalID: -1353540179
+      spriteID: 47c879073e229b9498a28417a3db58cb
+      internalID: 1801115920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_142
+      name: JackoNew_142
       rect:
         serializedVersion: 2
         x: 512
@@ -3106,14 +3119,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3717fc12a9bde3544ad767324730900d
-      internalID: -1982308323
+      spriteID: 79aa4026030996441825b54c7f86691c
+      internalID: -2052701135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_143
+      name: JackoNew_143
       rect:
         serializedVersion: 2
         x: 576
@@ -3127,14 +3140,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 210987774004e54409a1eba8b12e7890
-      internalID: 571614165
+      spriteID: 7d4d2499d7601724fb661b05569256e5
+      internalID: -51510840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_144
+      name: JackoNew_144
       rect:
         serializedVersion: 2
         x: 640
@@ -3148,14 +3161,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 52ecab7895c50f84098ceb68a422a38a
-      internalID: 901886690
+      spriteID: faff960c818050245bce4fbaf404b8aa
+      internalID: 1111559117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_145
+      name: JackoNew_145
       rect:
         serializedVersion: 2
         x: 704
@@ -3169,14 +3182,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 241428493ef999042ae55325de6a6447
-      internalID: -1859156746
+      spriteID: 9d22a8a2b188ea341be08eaa727d8bd6
+      internalID: 1290928108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_146
+      name: JackoNew_146
       rect:
         serializedVersion: 2
         x: 768
@@ -3190,14 +3203,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b838c5d2db1f00468b1e78df94899df
-      internalID: -204940168
+      spriteID: 58c19245e7ce6c04a8751d4a1a65efcb
+      internalID: 1440872132
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_147
+      name: JackoNew_147
       rect:
         serializedVersion: 2
         x: 0
@@ -3211,14 +3224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36a7be10ce1992240a01ebf11cec4cec
-      internalID: -1562952894
+      spriteID: 674345f1846978f49abee7058401453d
+      internalID: -1364364445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_148
+      name: JackoNew_148
       rect:
         serializedVersion: 2
         x: 64
@@ -3232,14 +3245,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f957c7ae4e723cc45b36b1380e1f3968
-      internalID: -175354170
+      spriteID: d7218be474ae8df40b361c8884e4c198
+      internalID: -2042197642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_149
+      name: JackoNew_149
       rect:
         serializedVersion: 2
         x: 128
@@ -3253,14 +3266,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e9dff0835cabba48b95722fb16e207c
-      internalID: -407878958
+      spriteID: 7d53762588eccc34aaea5f4274e3eb33
+      internalID: -974009330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_150
+      name: JackoNew_150
       rect:
         serializedVersion: 2
         x: 192
@@ -3274,14 +3287,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 081d9a52d50b7ef46840b1f79dae8853
-      internalID: 1034796138
+      spriteID: 19c92a0740ee5854cabec1bace64e192
+      internalID: -1856607623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_151
+      name: JackoNew_151
       rect:
         serializedVersion: 2
         x: 256
@@ -3295,14 +3308,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e5d09f8fe160e54e8dd13decb5b2ca0
-      internalID: 1452356976
+      spriteID: 4e73203ab25bde64ca44bc4ecd8af545
+      internalID: 1101636431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_152
+      name: JackoNew_152
       rect:
         serializedVersion: 2
         x: 320
@@ -3316,14 +3329,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8867d4f636b126c40b8af7248d82dfc9
-      internalID: 637878123
+      spriteID: 2e07b9ea0e61570438b9c77ca480f297
+      internalID: 1296408279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_153
+      name: JackoNew_153
       rect:
         serializedVersion: 2
         x: 384
@@ -3337,14 +3350,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 410ffbb31d29c4448bbe3970b5cea836
-      internalID: 2049432846
+      spriteID: 6dd2faa2386195646b59579483c70473
+      internalID: -427430661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_154
+      name: JackoNew_154
       rect:
         serializedVersion: 2
         x: 448
@@ -3358,14 +3371,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8686ca45154e43243bbc7ccb912a5e92
-      internalID: -87635737
+      spriteID: c95852674f11e8543930135c9aa11302
+      internalID: 1107768966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_155
+      name: JackoNew_155
       rect:
         serializedVersion: 2
         x: 512
@@ -3379,14 +3392,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ed3e4b421411ef4abd419e0526c45ec
-      internalID: 882990703
+      spriteID: 7bb2e3c4e2b48ee49bdebe776c2960d1
+      internalID: -1651771778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_156
+      name: JackoNew_156
       rect:
         serializedVersion: 2
         x: 576
@@ -3400,14 +3413,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77362ed7f4fd8034ebf4f88116b73cec
-      internalID: -2004465245
+      spriteID: 381dcdb21034fc043bf8454a7bab9e50
+      internalID: -582712178
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_157
+      name: JackoNew_157
       rect:
         serializedVersion: 2
         x: 640
@@ -3421,14 +3434,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96f59ffa266289b4e846135057a0beb2
-      internalID: 1379017588
+      spriteID: 4ebcc89bd44fb8c45b273c9231f8c9a2
+      internalID: -316700829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_158
+      name: JackoNew_158
       rect:
         serializedVersion: 2
         x: 704
@@ -3442,14 +3455,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 925688eb738101f478d0773db0524324
-      internalID: -302772718
+      spriteID: 80b67f56939d8c2419c4d6a59e9dce04
+      internalID: 145885301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_159
+      name: JackoNew_159
       rect:
         serializedVersion: 2
         x: 768
@@ -3463,14 +3476,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1c065cf31f0548642ab17f59991452c3
-      internalID: -344912433
+      spriteID: cf5e53454a67ef343a4d0da841d5767c
+      internalID: -1966369925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_160
+      name: JackoNew_160
       rect:
         serializedVersion: 2
         x: 0
@@ -3484,14 +3497,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2864ccffcd1eea14c96fafd89acab160
-      internalID: -831886525
+      spriteID: 0de306e677bc05543b4053ee9a7ac7cc
+      internalID: 833273921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_161
+      name: JackoNew_161
       rect:
         serializedVersion: 2
         x: 64
@@ -3505,14 +3518,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c3f82c0808abb24ba69bd7cc7c7d319
-      internalID: -1118848653
+      spriteID: c9bb183d7fb9c2742a465ee04437e669
+      internalID: -853049699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_162
+      name: JackoNew_162
       rect:
         serializedVersion: 2
         x: 128
@@ -3526,14 +3539,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b3ece306304ca74fad00e342f1c632a
-      internalID: -2072323735
+      spriteID: f8769b66062452542a80b70623d686c7
+      internalID: -451311725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_163
+      name: JackoNew_163
       rect:
         serializedVersion: 2
         x: 192
@@ -3547,14 +3560,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fffc00ad623dd747beae798311d7b1d
-      internalID: 1268899663
+      spriteID: be2061f9391800840a9d0dfae3180a26
+      internalID: -1080328638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_164
+      name: JackoNew_164
       rect:
         serializedVersion: 2
         x: 256
@@ -3568,14 +3581,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d713c5cfb1300954197df2615013ad4b
-      internalID: -1737101494
+      spriteID: 1d43b32e915b0734186bd4d2158714d8
+      internalID: 91223520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_165
+      name: JackoNew_165
       rect:
         serializedVersion: 2
         x: 320
@@ -3589,14 +3602,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 081d631144b8ab44f84cbdfc282da509
-      internalID: -400980163
+      spriteID: 7a9e5d6c742703b4f9f4a7aecc6ab839
+      internalID: 1448757947
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_166
+      name: JackoNew_166
       rect:
         serializedVersion: 2
         x: 384
@@ -3610,14 +3623,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 405e96876ea6b66468854b3c51455ea6
-      internalID: 1262065193
+      spriteID: 7f447af3983171644ac8a0671ffac7d0
+      internalID: -1002377513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_167
+      name: JackoNew_167
       rect:
         serializedVersion: 2
         x: 448
@@ -3631,14 +3644,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f9b7b8bcf196e44b83d745419a87967
-      internalID: 1464776706
+      spriteID: 2ec59a93da7052d4c86a2eddbac24658
+      internalID: 195746448
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_168
+      name: JackoNew_168
       rect:
         serializedVersion: 2
         x: 512
@@ -3652,14 +3665,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8e105bd7d799504f87503ce31535a4d
-      internalID: 1702546712
+      spriteID: 07f652530826b774bafe8721e89c43ab
+      internalID: -374236399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_169
+      name: JackoNew_169
       rect:
         serializedVersion: 2
         x: 576
@@ -3673,14 +3686,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b899e82a2a1fa5445b3b3cf19e0cffb9
-      internalID: -1390454363
+      spriteID: ee0adf9fa6fad474ab316a7e061c715d
+      internalID: -1864782050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_170
+      name: JackoNew_170
       rect:
         serializedVersion: 2
         x: 640
@@ -3694,14 +3707,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce3c63098a6f83649b84d769d4a0ef31
-      internalID: -1140169196
+      spriteID: b3df7d444b6dc9044a78887b9d333856
+      internalID: 1798901558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_171
+      name: JackoNew_171
       rect:
         serializedVersion: 2
         x: 704
@@ -3715,14 +3728,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72c11385eb9834a4f9d119fe827a164d
-      internalID: -15486290
+      spriteID: aa9ff8689d7ee9e45af3f4cdd6086cb3
+      internalID: 1806086719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_172
+      name: JackoNew_172
       rect:
         serializedVersion: 2
         x: 768
@@ -3736,14 +3749,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d469ddfc534fc44d9f1b2df4e7f1b1d
-      internalID: 1020337884
+      spriteID: 4620b568ef9439b499d1926ce78c6bbb
+      internalID: 1170843073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_173
+      name: JackoNew_173
       rect:
         serializedVersion: 2
         x: 0
@@ -3757,14 +3770,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 190cea1a7acb4ee4faae12de3644beae
-      internalID: 116858394
+      spriteID: 3c601beda935fba47a9c73e48bce8dd8
+      internalID: -380293282
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_174
+      name: JackoNew_174
       rect:
         serializedVersion: 2
         x: 64
@@ -3778,14 +3791,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff3396d1c4591fe4dbd48ce66a8cccbd
-      internalID: 1706478096
+      spriteID: 5ebb5df941b65d94dbb1d95541db3dc4
+      internalID: 883832840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_175
+      name: JackoNew_175
       rect:
         serializedVersion: 2
         x: 128
@@ -3799,14 +3812,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 068823e3cae34dd48ba0e12bb536ea9a
-      internalID: 1746763599
+      spriteID: 267252c5fdf36444ea2a3a20d3a7aa19
+      internalID: 1272453950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_176
+      name: JackoNew_176
       rect:
         serializedVersion: 2
         x: 192
@@ -3820,14 +3833,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f32b790b80349ab40a9a595c5fedab1f
-      internalID: 953535910
+      spriteID: 38b2cafe7eb47f5409e4c7390e1e12fc
+      internalID: -1669913104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_177
+      name: JackoNew_177
       rect:
         serializedVersion: 2
         x: 256
@@ -3841,14 +3854,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7d871ef193ffea49a1f5f2a69aebaf3
-      internalID: 488499227
+      spriteID: 9bfa85e08f002804a8aee445fadfd25b
+      internalID: 1196823800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jacko, SpriteSheet_178
+      name: JackoNew_178
       rect:
         serializedVersion: 2
         x: 320
@@ -3862,8 +3875,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6c01a0f354fb7f49807fee911e3f8af
-      internalID: -985484428
+      spriteID: 6832b6b0e0cfcca43ae0a09ee5e6e052
+      internalID: 41039065
       vertices: []
       indices: 
       edges: []
@@ -3879,185 +3892,185 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Jacko, SpriteSheet_0: 636244310
-      Jacko, SpriteSheet_1: 308618252
-      Jacko, SpriteSheet_10: 324957657
-      Jacko, SpriteSheet_100: 2138323984
-      Jacko, SpriteSheet_101: 1802894008
-      Jacko, SpriteSheet_102: -1998350418
-      Jacko, SpriteSheet_103: 107829967
-      Jacko, SpriteSheet_104: 1231459838
-      Jacko, SpriteSheet_105: 350386593
-      Jacko, SpriteSheet_106: -329660430
-      Jacko, SpriteSheet_107: 1905745936
-      Jacko, SpriteSheet_108: 999395815
-      Jacko, SpriteSheet_109: 1089509939
-      Jacko, SpriteSheet_11: 378746561
-      Jacko, SpriteSheet_110: -882259665
-      Jacko, SpriteSheet_111: -263789656
-      Jacko, SpriteSheet_112: -1223704605
-      Jacko, SpriteSheet_113: -1126496745
-      Jacko, SpriteSheet_114: -144376171
-      Jacko, SpriteSheet_115: -1942308176
-      Jacko, SpriteSheet_116: 1042997939
-      Jacko, SpriteSheet_117: 45151614
-      Jacko, SpriteSheet_118: 1487456156
-      Jacko, SpriteSheet_119: -403919900
-      Jacko, SpriteSheet_12: 1219414182
-      Jacko, SpriteSheet_120: 1048475761
-      Jacko, SpriteSheet_121: 1361780281
-      Jacko, SpriteSheet_122: 1211003008
-      Jacko, SpriteSheet_123: -789357705
-      Jacko, SpriteSheet_124: 1496511142
-      Jacko, SpriteSheet_125: 815297394
-      Jacko, SpriteSheet_126: 1399668305
-      Jacko, SpriteSheet_127: 64406461
-      Jacko, SpriteSheet_128: 707262584
-      Jacko, SpriteSheet_129: 2065166592
-      Jacko, SpriteSheet_13: -35559942
-      Jacko, SpriteSheet_130: 283769720
-      Jacko, SpriteSheet_131: -1032784482
-      Jacko, SpriteSheet_132: 2053007208
-      Jacko, SpriteSheet_133: -1685552112
-      Jacko, SpriteSheet_134: -1511093647
-      Jacko, SpriteSheet_135: -339062902
-      Jacko, SpriteSheet_136: 711644130
-      Jacko, SpriteSheet_137: 609204044
-      Jacko, SpriteSheet_138: 1940490104
-      Jacko, SpriteSheet_139: 2008197435
-      Jacko, SpriteSheet_14: 1536830678
-      Jacko, SpriteSheet_140: -1503008072
-      Jacko, SpriteSheet_141: -1353540179
-      Jacko, SpriteSheet_142: -1982308323
-      Jacko, SpriteSheet_143: 571614165
-      Jacko, SpriteSheet_144: 901886690
-      Jacko, SpriteSheet_145: -1859156746
-      Jacko, SpriteSheet_146: -204940168
-      Jacko, SpriteSheet_147: -1562952894
-      Jacko, SpriteSheet_148: -175354170
-      Jacko, SpriteSheet_149: -407878958
-      Jacko, SpriteSheet_15: -174365344
-      Jacko, SpriteSheet_150: 1034796138
-      Jacko, SpriteSheet_151: 1452356976
-      Jacko, SpriteSheet_152: 637878123
-      Jacko, SpriteSheet_153: 2049432846
-      Jacko, SpriteSheet_154: -87635737
-      Jacko, SpriteSheet_155: 882990703
-      Jacko, SpriteSheet_156: -2004465245
-      Jacko, SpriteSheet_157: 1379017588
-      Jacko, SpriteSheet_158: -302772718
-      Jacko, SpriteSheet_159: -344912433
-      Jacko, SpriteSheet_16: -1911008333
-      Jacko, SpriteSheet_160: -831886525
-      Jacko, SpriteSheet_161: -1118848653
-      Jacko, SpriteSheet_162: -2072323735
-      Jacko, SpriteSheet_163: 1268899663
-      Jacko, SpriteSheet_164: -1737101494
-      Jacko, SpriteSheet_165: -400980163
-      Jacko, SpriteSheet_166: 1262065193
-      Jacko, SpriteSheet_167: 1464776706
-      Jacko, SpriteSheet_168: 1702546712
-      Jacko, SpriteSheet_169: -1390454363
-      Jacko, SpriteSheet_17: -1388600102
-      Jacko, SpriteSheet_170: -1140169196
-      Jacko, SpriteSheet_171: -15486290
-      Jacko, SpriteSheet_172: 1020337884
-      Jacko, SpriteSheet_173: 116858394
-      Jacko, SpriteSheet_174: 1706478096
-      Jacko, SpriteSheet_175: 1746763599
-      Jacko, SpriteSheet_176: 953535910
-      Jacko, SpriteSheet_177: 488499227
-      Jacko, SpriteSheet_178: -985484428
-      Jacko, SpriteSheet_18: -1855382354
-      Jacko, SpriteSheet_19: -417690004
-      Jacko, SpriteSheet_2: 1040208558
-      Jacko, SpriteSheet_20: -895985448
-      Jacko, SpriteSheet_21: 1216725541
-      Jacko, SpriteSheet_22: -904621720
-      Jacko, SpriteSheet_23: -344496365
-      Jacko, SpriteSheet_24: 1979567647
-      Jacko, SpriteSheet_25: -571832168
-      Jacko, SpriteSheet_26: -1699316611
-      Jacko, SpriteSheet_27: -663309159
-      Jacko, SpriteSheet_28: 1749012692
-      Jacko, SpriteSheet_29: -122285601
-      Jacko, SpriteSheet_3: -1259615888
-      Jacko, SpriteSheet_30: 1966957358
-      Jacko, SpriteSheet_31: 2061611643
-      Jacko, SpriteSheet_32: -778392336
-      Jacko, SpriteSheet_33: 881357581
-      Jacko, SpriteSheet_34: -1938227155
-      Jacko, SpriteSheet_35: -1013078432
-      Jacko, SpriteSheet_36: 503662405
-      Jacko, SpriteSheet_37: -1073953029
-      Jacko, SpriteSheet_38: 166452410
-      Jacko, SpriteSheet_39: -550819563
-      Jacko, SpriteSheet_4: -1310327727
-      Jacko, SpriteSheet_40: -2068573044
-      Jacko, SpriteSheet_41: 864776583
-      Jacko, SpriteSheet_42: -578081830
-      Jacko, SpriteSheet_43: -1173669538
-      Jacko, SpriteSheet_44: 641641474
-      Jacko, SpriteSheet_45: 989045128
-      Jacko, SpriteSheet_46: 964858322
-      Jacko, SpriteSheet_47: 2068961203
-      Jacko, SpriteSheet_48: -1573322376
-      Jacko, SpriteSheet_49: -388537484
-      Jacko, SpriteSheet_5: -1551387958
-      Jacko, SpriteSheet_50: 362036831
-      Jacko, SpriteSheet_51: -1301217257
-      Jacko, SpriteSheet_52: 2106926541
-      Jacko, SpriteSheet_53: -2137216087
-      Jacko, SpriteSheet_54: 439652379
-      Jacko, SpriteSheet_55: 1339202019
-      Jacko, SpriteSheet_56: 1151922013
-      Jacko, SpriteSheet_57: 1203914727
-      Jacko, SpriteSheet_58: -607443886
-      Jacko, SpriteSheet_59: -1749428060
-      Jacko, SpriteSheet_6: -1104740021
-      Jacko, SpriteSheet_60: 510296460
-      Jacko, SpriteSheet_61: -1597556592
-      Jacko, SpriteSheet_62: -1544744541
-      Jacko, SpriteSheet_63: -472560516
-      Jacko, SpriteSheet_64: -1098985429
-      Jacko, SpriteSheet_65: 1890905010
-      Jacko, SpriteSheet_66: 1207992411
-      Jacko, SpriteSheet_67: 1496814004
-      Jacko, SpriteSheet_68: 930784387
-      Jacko, SpriteSheet_69: 1377716178
-      Jacko, SpriteSheet_7: -1367825676
-      Jacko, SpriteSheet_70: -797986605
-      Jacko, SpriteSheet_71: 2045720345
-      Jacko, SpriteSheet_72: -1571688970
-      Jacko, SpriteSheet_73: -474408543
-      Jacko, SpriteSheet_74: -32004635
-      Jacko, SpriteSheet_75: 490139405
-      Jacko, SpriteSheet_76: 1321475667
-      Jacko, SpriteSheet_77: 1537455232
-      Jacko, SpriteSheet_78: -1588194359
-      Jacko, SpriteSheet_79: -2058960446
-      Jacko, SpriteSheet_8: 1845445939
-      Jacko, SpriteSheet_80: 1301019548
-      Jacko, SpriteSheet_81: 205362155
-      Jacko, SpriteSheet_82: -1472861337
-      Jacko, SpriteSheet_83: 1934297755
-      Jacko, SpriteSheet_84: -1350385759
-      Jacko, SpriteSheet_85: -226637068
-      Jacko, SpriteSheet_86: -1297687505
-      Jacko, SpriteSheet_87: 147255979
-      Jacko, SpriteSheet_88: -1781147875
-      Jacko, SpriteSheet_89: -1303538115
-      Jacko, SpriteSheet_9: -1315784614
-      Jacko, SpriteSheet_90: -1734597938
-      Jacko, SpriteSheet_91: 1200263514
-      Jacko, SpriteSheet_92: 1548512468
-      Jacko, SpriteSheet_93: -1106030016
-      Jacko, SpriteSheet_94: -377516589
-      Jacko, SpriteSheet_95: 1688859999
-      Jacko, SpriteSheet_96: 1547682470
-      Jacko, SpriteSheet_97: 206900972
-      Jacko, SpriteSheet_98: 1498920160
-      Jacko, SpriteSheet_99: 1285821247
+      JackoNew_0: 448639366
+      JackoNew_1: -2056060349
+      JackoNew_10: -1619747799
+      JackoNew_100: 1005580288
+      JackoNew_101: -1781097660
+      JackoNew_102: 1900292015
+      JackoNew_103: -542691623
+      JackoNew_104: 9951566
+      JackoNew_105: -993007002
+      JackoNew_106: -180595853
+      JackoNew_107: 1422045329
+      JackoNew_108: 110202767
+      JackoNew_109: -920199020
+      JackoNew_11: -806924687
+      JackoNew_110: -859915393
+      JackoNew_111: -1648332077
+      JackoNew_112: -1578778643
+      JackoNew_113: 1913596715
+      JackoNew_114: -1131692948
+      JackoNew_115: -1832480470
+      JackoNew_116: 190177007
+      JackoNew_117: -275532410
+      JackoNew_118: -189243497
+      JackoNew_119: -863647351
+      JackoNew_12: 2141737283
+      JackoNew_120: -529261609
+      JackoNew_121: 1392126774
+      JackoNew_122: 1385747844
+      JackoNew_123: -436033755
+      JackoNew_124: 1225538127
+      JackoNew_125: -445212253
+      JackoNew_126: -1290839689
+      JackoNew_127: 185915727
+      JackoNew_128: 838259991
+      JackoNew_129: -329953387
+      JackoNew_13: -1064102889
+      JackoNew_130: -369846172
+      JackoNew_131: -1129413441
+      JackoNew_132: -2094374145
+      JackoNew_133: 181510556
+      JackoNew_134: -1461026803
+      JackoNew_135: 1544697007
+      JackoNew_136: 960224312
+      JackoNew_137: 1676649225
+      JackoNew_138: -1224970763
+      JackoNew_139: -858815106
+      JackoNew_14: -1849905851
+      JackoNew_140: 1984397029
+      JackoNew_141: 1801115920
+      JackoNew_142: -2052701135
+      JackoNew_143: -51510840
+      JackoNew_144: 1111559117
+      JackoNew_145: 1290928108
+      JackoNew_146: 1440872132
+      JackoNew_147: -1364364445
+      JackoNew_148: -2042197642
+      JackoNew_149: -974009330
+      JackoNew_15: 1474423713
+      JackoNew_150: -1856607623
+      JackoNew_151: 1101636431
+      JackoNew_152: 1296408279
+      JackoNew_153: -427430661
+      JackoNew_154: 1107768966
+      JackoNew_155: -1651771778
+      JackoNew_156: -582712178
+      JackoNew_157: -316700829
+      JackoNew_158: 145885301
+      JackoNew_159: -1966369925
+      JackoNew_16: -967555016
+      JackoNew_160: 833273921
+      JackoNew_161: -853049699
+      JackoNew_162: -451311725
+      JackoNew_163: -1080328638
+      JackoNew_164: 91223520
+      JackoNew_165: 1448757947
+      JackoNew_166: -1002377513
+      JackoNew_167: 195746448
+      JackoNew_168: -374236399
+      JackoNew_169: -1864782050
+      JackoNew_17: 1698008841
+      JackoNew_170: 1798901558
+      JackoNew_171: 1806086719
+      JackoNew_172: 1170843073
+      JackoNew_173: -380293282
+      JackoNew_174: 883832840
+      JackoNew_175: 1272453950
+      JackoNew_176: -1669913104
+      JackoNew_177: 1196823800
+      JackoNew_178: 41039065
+      JackoNew_18: 1142623633
+      JackoNew_19: 1532412572
+      JackoNew_2: 1446914952
+      JackoNew_20: 995607198
+      JackoNew_21: -1830773195
+      JackoNew_22: 682359849
+      JackoNew_23: -64443503
+      JackoNew_24: 699779324
+      JackoNew_25: -50507039
+      JackoNew_26: 1664171711
+      JackoNew_27: -1185195434
+      JackoNew_28: 150453634
+      JackoNew_29: -395377671
+      JackoNew_3: 111080649
+      JackoNew_30: -1266314020
+      JackoNew_31: 1416261025
+      JackoNew_32: 1163078424
+      JackoNew_33: 1755937453
+      JackoNew_34: 655379565
+      JackoNew_35: -244881915
+      JackoNew_36: 330478996
+      JackoNew_37: -1523458865
+      JackoNew_38: 520378796
+      JackoNew_39: -1676219183
+      JackoNew_4: -2006004594
+      JackoNew_40: -1638932569
+      JackoNew_41: 595601995
+      JackoNew_42: -490145080
+      JackoNew_43: -1481970716
+      JackoNew_44: -799358445
+      JackoNew_45: -230884555
+      JackoNew_46: 895164351
+      JackoNew_47: 1022879711
+      JackoNew_48: -320383407
+      JackoNew_49: 1931930741
+      JackoNew_5: -281019768
+      JackoNew_50: 1882982844
+      JackoNew_51: -523781319
+      JackoNew_52: -493388249
+      JackoNew_53: 1194912159
+      JackoNew_54: 1971072143
+      JackoNew_55: -14870947
+      JackoNew_56: 1815278377
+      JackoNew_57: 235327095
+      JackoNew_58: 1810038731
+      JackoNew_59: 653915589
+      JackoNew_6: 1377474407
+      JackoNew_60: -973816615
+      JackoNew_61: -1648556713
+      JackoNew_62: 134179082
+      JackoNew_63: 300281665
+      JackoNew_64: 503280392
+      JackoNew_65: 943876016
+      JackoNew_66: -1714972920
+      JackoNew_67: 1060428401
+      JackoNew_68: -1398478893
+      JackoNew_69: -218027963
+      JackoNew_7: 468520500
+      JackoNew_70: 1379786310
+      JackoNew_71: 1351919817
+      JackoNew_72: 1816914696
+      JackoNew_73: 1166068945
+      JackoNew_74: 46806699
+      JackoNew_75: 637077970
+      JackoNew_76: 1384995742
+      JackoNew_77: -1326253796
+      JackoNew_78: 205029700
+      JackoNew_79: 1823317020
+      JackoNew_8: -1076226665
+      JackoNew_80: -682291834
+      JackoNew_81: -1498446102
+      JackoNew_82: 1988810380
+      JackoNew_83: -735702740
+      JackoNew_84: 1889559410
+      JackoNew_85: -2027170088
+      JackoNew_86: -670464481
+      JackoNew_87: 1974283587
+      JackoNew_88: -921962028
+      JackoNew_89: 1852809260
+      JackoNew_9: 822058476
+      JackoNew_90: -1639527329
+      JackoNew_91: 1210452500
+      JackoNew_92: 194694116
+      JackoNew_93: 583617757
+      JackoNew_94: 509289569
+      JackoNew_95: -1759341833
+      JackoNew_96: 1224083423
+      JackoNew_97: -2035564392
+      JackoNew_98: 120941371
+      JackoNew_99: -879009029
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

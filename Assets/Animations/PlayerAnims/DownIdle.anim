@@ -21,9 +21,9 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: 1216725541, guid: ae80bc439e8f7d248939cfae6b951492, type: 3}
+      value: {fileID: 1474423713, guid: 71fd71f5e7891554c975ca8af22d78d5, type: 3}
     - time: 0.016666668
-      value: {fileID: 1216725541, guid: ae80bc439e8f7d248939cfae6b951492, type: 3}
+      value: {fileID: 1474423713, guid: 71fd71f5e7891554c975ca8af22d78d5, type: 3}
     attribute: m_Sprite
     path: Jacko(sprite)
     classID: 212
@@ -46,8 +46,8 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 1216725541, guid: ae80bc439e8f7d248939cfae6b951492, type: 3}
-    - {fileID: 1216725541, guid: ae80bc439e8f7d248939cfae6b951492, type: 3}
+    - {fileID: 1474423713, guid: 71fd71f5e7891554c975ca8af22d78d5, type: 3}
+    - {fileID: 1474423713, guid: 71fd71f5e7891554c975ca8af22d78d5, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
