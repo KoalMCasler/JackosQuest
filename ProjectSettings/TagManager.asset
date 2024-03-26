@@ -8,6 +8,9 @@ TagManager:
   - LevelManager
   - Interactable
   - InfoText
+  - Enter
+  - Exit
+  - Confiner
   layers:
   - Default
   - TransparentFX

@@ -73,12 +73,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 15
-  m_Sprite: {fileID: 1216725541, guid: ae80bc439e8f7d248939cfae6b951492, type: 3}
+  m_Sprite: {fileID: 1474423713, guid: 71fd71f5e7891554c975ca8af22d78d5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1.875, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: 4882951808360966314}
   - component: {fileID: 4240612042678568373}
   - component: {fileID: 6830742379299254073}
+  - component: {fileID: 1119076940664569207}
   m_Layer: 0
   m_Name: Player(JackoSprite)
   m_TagString: Player
@@ -247,3 +248,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentInterObj: {fileID: 0}
   currentInterObjScript: {fileID: 0}
+  CoinCounter: {fileID: 0}
+  coinCount: 0
+  indicator: {fileID: 0}
+--- !u!114 &1119076940664569207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7776770976466700525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07e992c9395fe684293bc745f89be3da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnterOffset: {x: -1, y: 0, z: 0}
+  ExitOffset: {x: 1, y: 0, z: 0}
+  sceneInfo: {fileID: 11400000, guid: c1caca45412b1ac40b312a4126cc9a68, type: 2}
