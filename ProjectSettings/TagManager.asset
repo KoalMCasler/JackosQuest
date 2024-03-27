@@ -11,6 +11,8 @@ TagManager:
   - Enter
   - Exit
   - Confiner
+  - ExitOffset
+  - EnterOffset
   layers:
   - Default
   - TransparentFX

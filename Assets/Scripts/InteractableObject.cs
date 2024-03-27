@@ -8,9 +8,13 @@ public class InteractableObject : MonoBehaviour
     [Header("Remember to set Item Type")]
     public string message;
     private TextMeshProUGUI infoText;
-    public enum ItemType{Nothing, Pickup, Info, Talks}
+    public enum ItemType{Nothing, Pickup, Info, Talks, Pillar, Portal}
     public ItemType itemType;
     public string[] sentences;
+    public bool IsQuestrelated;
+    public bool IsActivated;
+    public Animator ObjectAnimator;
+    private GameObject player;
 
     public void Start()
     {
@@ -22,7 +26,6 @@ public class InteractableObject : MonoBehaviour
         }
     }
 
-
     public void Info()
     {
         Debug.Log("Reading info from " + this.name);
@@ -33,13 +36,48 @@ public class InteractableObject : MonoBehaviour
 
     public void Pickup()
     {
+        StartCoroutine(ShowInfo(message, 0.5f));   
         Debug.Log("Picking up " + this.name);
         this.gameObject.SetActive(false);   
-        StartCoroutine(ShowInfo(message, 0.5f));   
+    }
+    public void Pillar()
+    {
+        if(!IsActivated)
+        {
+            StartCoroutine(ShowInfo(message, 2.5f));
+            IsActivated = true;
+            ObjectAnimator.SetBool("IsActivated", true);
+            player.GetComponent<Interaction>().PillarActiveCount += 1;
+        }
     }
     public void Talks()
     {
         FindObjectOfType<DialogueManager>().StartDialogue(sentences);
+    }
+    public void Portal()
+    {
+        if(player.GetComponent<Interaction>().PillarActiveCount < 4)
+        {
+            StartCoroutine(ShowInfo(message, 2.5f));
+        }
+        else
+        {
+
+        }
+    }
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.CompareTag("Player"))
+        {
+            player = other.gameObject;
+        }
+    }
+    public void OnTriggerExit2D(Collider2D other)
+    {
+        if(other.CompareTag("Player"))
+        {
+            player = null;
+        }
     }
     IEnumerator ShowInfo(string message, float delay)
     {

@@ -11,6 +11,11 @@ public class LevelManager : MonoBehaviour
     public GameObject mainCamera;
     public Collider2D foundBoundingShape;
     public CinemachineConfiner2D confiner2D;
+    public GameObject Entrance;
+    public GameObject Exit;
+    public GameObject EnterOffset;
+    public GameObject ExitOffset;
+    public SceneInfo sceneInfo;
     void Start()
     {
         player = GameObject.FindWithTag("Player");
@@ -34,13 +39,15 @@ public class LevelManager : MonoBehaviour
     }
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        player.SetActive(false);
+        Entrance = GameObject.FindWithTag("Enter");
+        Exit = GameObject.FindWithTag("Exit");
+        EnterOffset = GameObject.FindWithTag("EnterOffset");
+        ExitOffset = GameObject.FindWithTag("ExitOffset");
         foundBoundingShape = GameObject.FindWithTag("Confiner").GetComponent<Collider2D>();
         confiner2D.m_BoundingShape2D = foundBoundingShape;
         mainCamera = GameObject.FindWithTag("MainCamera");
-        mainCamera.GetComponent<CameraFollow>().target = player.transform;
-        player.transform.position = GameObject.FindWithTag("Spawn").transform.position;
-        player.SetActive(true);
-        SceneManager.sceneLoaded -= OnSceneLoaded;
+        GameObject target = sceneInfo.IsNextScene ? Entrance : Exit;
+        Vector3 Offset = sceneInfo.IsNextScene ? EnterOffset.transform.position : ExitOffset.transform.position;
+        player.transform.position =  Offset;
     }
 }

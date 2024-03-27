@@ -10,9 +10,11 @@ public class Interaction : MonoBehaviour
     public TextMeshProUGUI CoinCounter;
     public int coinCount;
     public GameObject indicator;
+    public int PillarActiveCount;
 
     void Start()
     {
+        PillarActiveCount = 0;
         indicator.SetActive(false);
         coinCount = 0;
     }
@@ -29,9 +31,12 @@ public class Interaction : MonoBehaviour
     {
         if(other.CompareTag("Interactable") == true)
         {
-            indicator.SetActive(true);
             currentInterObj = other.gameObject;
             currentInterObjScript = currentInterObj.GetComponent<InteractableObject>();
+            if(currentInterObjScript.IsActivated != true)
+            {
+                indicator.SetActive(true);
+            }
         }
     }
 
@@ -45,21 +50,32 @@ public class Interaction : MonoBehaviour
     }
     void Interact()
     {
-        if(currentInterObjScript.itemType == InteractableObject.ItemType.Info)
+        if(!currentInterObjScript.IsActivated)
         {
-            currentInterObjScript.Info();
-        }
-        if(currentInterObjScript.itemType == InteractableObject.ItemType.Pickup)
-        {
-            if(currentInterObj.name == "Coin")
+            if(currentInterObjScript.itemType == InteractableObject.ItemType.Info)
             {
-                 coinCount += 1;
+                currentInterObjScript.Info();
             }
-            currentInterObjScript.Pickup();
-        }
-        if(currentInterObjScript.itemType == InteractableObject.ItemType.Talks)
-        {
-            currentInterObjScript.Talks();
+            if(currentInterObjScript.itemType == InteractableObject.ItemType.Pickup)
+            {
+                if(currentInterObj.name == "Coin")
+                {
+                    coinCount += 1;
+                }
+                currentInterObjScript.Pickup();
+            }
+            if(currentInterObjScript.itemType == InteractableObject.ItemType.Talks)
+            {
+                currentInterObjScript.Talks();
+            }
+            if(currentInterObjScript.itemType == InteractableObject.ItemType.Pillar)
+            {
+                currentInterObjScript.Pillar();
+            }
+            if(currentInterObjScript.itemType == InteractableObject.ItemType.Portal)
+            {
+                currentInterObjScript.Portal();
+            }
         }
     }
 }
