@@ -250,3 +250,4 @@ MonoBehaviour:
   CoinCounter: {fileID: 0}
   coinCount: 0
   indicator: {fileID: 0}
+  PillarActiveCount: 0
