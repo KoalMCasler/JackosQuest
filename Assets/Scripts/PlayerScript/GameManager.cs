@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    [Header("Managers")]
     public UIManager uIManager;
     public LevelManager levelManager;
     public CharacterController2D playerController;
+    public InventoryManager inventoryManager;
+
+    [Header("Object Referances")]
 
     public GameObject player;
     public GameObject spawnPoint;
@@ -28,6 +32,8 @@ public class GameManager : MonoBehaviour
         uIManager = FindObjectOfType<UIManager>();
 
         playerController = FindObjectOfType<CharacterController2D>();
+        
+        inventoryManager = FindObjectOfType<InventoryManager>();
     }
 
     void Start()

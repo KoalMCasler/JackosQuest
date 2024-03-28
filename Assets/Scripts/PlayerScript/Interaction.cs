@@ -7,16 +7,14 @@ public class Interaction : MonoBehaviour
 {
     public GameObject currentInterObj = null;
     public InteractableObject currentInterObjScript = null;
-    public TextMeshProUGUI CoinCounter;
-    public int coinCount;
     public GameObject indicator;
     public int PillarActiveCount;
+    public InventoryManager inventoryManager;
 
     void Start()
     {
         PillarActiveCount = 0;
         indicator.SetActive(false);
-        coinCount = 0;
     }
     void Update()
     {
@@ -24,7 +22,6 @@ public class Interaction : MonoBehaviour
         {
             Interact();
         }
-        CoinCounter.text = string.Format("You have {0} coins", coinCount);
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -60,7 +57,11 @@ public class Interaction : MonoBehaviour
             {
                 if(currentInterObj.name == "Coin")
                 {
-                    coinCount += 1;
+                    inventoryManager.CoinCount += 1;
+                }
+                if(currentInterObj.name == "Flower")
+                {
+                    inventoryManager.FlowerCount += 1;
                 }
                 currentInterObjScript.Pickup();
             }
@@ -71,6 +72,7 @@ public class Interaction : MonoBehaviour
             if(currentInterObjScript.itemType == InteractableObject.ItemType.Pillar)
             {
                 currentInterObjScript.Pillar();
+                inventoryManager.ActivePillarCount = PillarActiveCount;
             }
             if(currentInterObjScript.itemType == InteractableObject.ItemType.Portal)
             {

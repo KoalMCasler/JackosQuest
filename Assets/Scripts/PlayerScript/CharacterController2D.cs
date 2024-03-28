@@ -14,9 +14,13 @@ public class CharacterController2D : MonoBehaviour
     [SerializeField]
     private Animator playerAnim;
     public bool IsSprinting;
+    public GameObject inventory;
+    public bool InventoryIsActive;
 
     void Awake()
     {
+        inventory.SetActive(false);
+        InventoryIsActive = false;
         IsSprinting = false;
         playerRB = gameObject.GetComponent<Rigidbody2D>();
     }
@@ -32,11 +36,21 @@ public class CharacterController2D : MonoBehaviour
         {
             IsSprinting = false;
         }
+        if(InventoryIsActive == true)
+        {
+            inventory.SetActive(true);
+        }
+        if(InventoryIsActive == false)
+        {
+            inventory.SetActive(false);
+        }
+
     }
     void FixedUpdate()
     {
         Move();
         PauseGame();
+        ToggleInventory();
     }
     void Move()
     {
@@ -108,6 +122,20 @@ public class CharacterController2D : MonoBehaviour
         else if(Input.GetKeyDown(KeyCode.Escape) && uIManager.GameIsPause == true)
         {
             gameManager.gameState = GameManager.GameState.Gameplay;
+        }
+    }
+    void ToggleInventory()
+    {
+        if(Input.GetKeyDown(KeyCode.I))
+        {
+            if(InventoryIsActive)
+            {
+                InventoryIsActive = false;
+            }
+            else
+            {
+                InventoryIsActive = true;
+            }
         }
     }
 

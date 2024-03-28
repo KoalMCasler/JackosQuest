@@ -140,6 +140,8 @@ MonoBehaviour:
   uIManager: {fileID: 0}
   playerAnim: {fileID: 4240612042678568373}
   IsSprinting: 0
+  inventory: {fileID: 0}
+  InventoryIsActive: 0
 --- !u!50 &2367853769053375717
 Rigidbody2D:
   serializedVersion: 4
@@ -247,7 +249,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentInterObj: {fileID: 0}
   currentInterObjScript: {fileID: 0}
-  CoinCounter: {fileID: 0}
-  coinCount: 0
   indicator: {fileID: 0}
   PillarActiveCount: 0
+  inventoryManager: {fileID: 0}
