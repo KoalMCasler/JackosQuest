@@ -82,9 +82,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c99923e9b98445249af93ba8591072bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: A blank worn down sign, odd.
+  InfoTextDelay: 2.5
   itemType: 2
+  message: A blank worn down sign, odd.
+  IsQuestrelated: 0
   sentences: []
+  IsActivated: 0
+  ObjectAnimator: {fileID: 0}
+  IsLocked: 0
 --- !u!212 &9176445771077385590
 SpriteRenderer:
   m_ObjectHideFlags: 0

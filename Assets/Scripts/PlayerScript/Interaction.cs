@@ -30,9 +30,13 @@ public class Interaction : MonoBehaviour
         {
             currentInterObj = other.gameObject;
             currentInterObjScript = currentInterObj.GetComponent<InteractableObject>();
-            if(currentInterObjScript.IsActivated != true)
+            if(currentInterObjScript.scriptableObject.IsActivated != true)
             {
                 indicator.SetActive(true);
+            }
+            if(currentInterObjScript.itemType == InteractableObject.ItemType.Door && currentInterObjScript.IsLocked == false)
+            {
+                currentInterObj = null;
             }
         }
     }
@@ -47,7 +51,7 @@ public class Interaction : MonoBehaviour
     }
     void Interact()
     {
-        if(!currentInterObjScript.IsActivated)
+        if(!currentInterObjScript.scriptableObject.IsActivated)
         {
             if(currentInterObjScript.itemType == InteractableObject.ItemType.Info)
             {
@@ -63,6 +67,18 @@ public class Interaction : MonoBehaviour
                 {
                     inventoryManager.FlowerCount += 1;
                 }
+                if(currentInterObj.name == "Key")
+                {
+                    inventoryManager.KeyCount += 1;
+                }
+                if(currentInterObj.name == "Potion")
+                {
+                    inventoryManager.PotionCount += 1;
+                }
+                if(currentInterObj.name == "Candle")
+                {
+                    inventoryManager.CandleCount += 1;
+                }
                 currentInterObjScript.Pickup();
             }
             if(currentInterObjScript.itemType == InteractableObject.ItemType.Talks)
@@ -77,6 +93,10 @@ public class Interaction : MonoBehaviour
             if(currentInterObjScript.itemType == InteractableObject.ItemType.Portal)
             {
                 currentInterObjScript.Portal();
+            }
+            if(currentInterObjScript.itemType == InteractableObject.ItemType.Door)
+            {
+                currentInterObjScript.Door();
             }
         }
     }

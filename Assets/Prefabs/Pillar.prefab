@@ -102,12 +102,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c99923e9b98445249af93ba8591072bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Pillar is activated
+  InfoTextDelay: 2.5
   itemType: 4
-  sentences: []
+  message: Pillar is activated
   IsQuestrelated: 0
+  sentences: []
   IsActivated: 0
   ObjectAnimator: {fileID: 8909879705885613498}
+  IsLocked: 0
 --- !u!58 &7921418285495926933
 CircleCollider2D:
   m_ObjectHideFlags: 0

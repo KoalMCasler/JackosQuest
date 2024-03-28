@@ -6,18 +6,35 @@ using TMPro;
 public class InteractableObject : MonoBehaviour
 {
     [Header("Remember to set Item Type")]
-    public string message;
-    private TextMeshProUGUI infoText;
-    public enum ItemType{Nothing, Pickup, Info, Talks, Pillar, Portal}
-    public ItemType itemType;
-    public string[] sentences;
-    public bool IsQuestrelated;
-    public bool IsActivated;
-    public Animator ObjectAnimator;
     private GameObject player;
+    private InventoryManager iM;
+    [Header("Used By all Objects")]
+    private TextMeshProUGUI infoText;
+    public float InfoTextDelay;
+    public enum ItemType{Nothing, Pickup, Info, Talks, Pillar, Portal, Door}
+    public ItemType itemType;
+    public string message;
+    [Header("Used by NPCS")]
+    public bool HasQuest;
+    public string[] introSentences;
+    public string[] questSentences;
+    public string[] questFinshedSentences;
+    public int questReqierment;
+    public string questRequest;
+    [Header("Used by Portal and Pillar")]
+    public Animator ObjectAnimator;
+    [Header("Used by doors")]
+    public bool IsLocked;
+    [Header("Used by all pickups, pillars, and NPCS")]
+    public InteractableScriptObject scriptableObject;
+    [Header("Used by Portal and last quest npc")]
+    public LevelManager levelManager;
 
-    public void Start()
+
+    void Start()
     {
+        levelManager = FindObjectOfType<LevelManager>();
+        IsLocked = true;
         infoText = GameObject.Find("InfoText").GetComponent<TextMeshProUGUI>();
         infoText.text = null;
         if(itemType == ItemType.Nothing)
@@ -25,44 +42,147 @@ public class InteractableObject : MonoBehaviour
             Debug.Log(this.name + " Has a type of nothing, Was this by mistake?");
         }
     }
-
+    void Awake()
+    {
+        if(scriptableObject != null)
+        {
+            if(scriptableObject.PickupCheck())
+            {
+                this.gameObject.SetActive(false);
+            }
+            if(scriptableObject.IsQuestCompleated)
+            {
+                if(questRequest == "Flowers")
+                {
+                    this.gameObject.SetActive(false);
+                }
+                if(questRequest == "Coins")
+                {
+                    this.gameObject.SetActive(false);
+                }
+            }
+        }
+    }
+    void Update()
+    {
+        if(scriptableObject != null)
+        {
+            if(scriptableObject.IsActivated == true)
+            {
+                ObjectAnimator.SetBool("IsActivated", true);
+            }
+        }
+    }
     public void Info()
     {
         Debug.Log("Reading info from " + this.name);
         //Debug.Log(message);
-        StartCoroutine(ShowInfo(message, 2.5f));
+        StartCoroutine(ShowInfo(message, InfoTextDelay));
     }
 
 
     public void Pickup()
-    {
-        StartCoroutine(ShowInfo(message, 0.5f));   
+    {  
         Debug.Log("Picking up " + this.name);
-        this.gameObject.SetActive(false);   
+        this.gameObject.SetActive(false);  
+        if(scriptableObject != null)
+        {
+            scriptableObject.IsPickedUp = true;
+        } 
     }
     public void Pillar()
     {
-        if(!IsActivated)
+        if(!scriptableObject.IsActivated)
         {
-            StartCoroutine(ShowInfo(message, 2.5f));
-            IsActivated = true;
-            ObjectAnimator.SetBool("IsActivated", true);
+            StartCoroutine(ShowInfo(message, InfoTextDelay));
+            scriptableObject.IsActivated = true;
             player.GetComponent<Interaction>().PillarActiveCount += 1;
         }
     }
     public void Talks()
     {
-        FindObjectOfType<DialogueManager>().StartDialogue(sentences);
+        if(HasQuest && scriptableObject.HasMetPlayer)
+        {
+            if(questRequest == "Coins")
+            {
+                if(iM.CoinCount >= questReqierment)
+                {
+                    iM.CoinCount -= questReqierment;
+                    scriptableObject.IsQuestCompleated = true;
+                }
+            }
+            if(questRequest == "Flowers")
+            {
+                if(iM.FlowerCount >= questReqierment)
+                {
+                    iM.FlowerCount -= questReqierment;
+                    scriptableObject.IsQuestCompleated = true;
+                }
+            }
+            if(questRequest == "Pillars")
+            {
+                if(iM.ActivePillarCount == questReqierment)
+                {
+                    scriptableObject.IsQuestCompleated = true;
+                }
+            }
+            if(questRequest == "Potion")
+            {
+                if(iM.PotionCount >= questReqierment)
+                {
+                    iM.PotionCount-= questReqierment;
+                    scriptableObject.IsQuestCompleated = true;
+                }
+            }
+            if(questRequest == "Candle")
+            {
+                if(iM.CandleCount == questReqierment)
+                {
+                    iM.CandleCount -= questReqierment;
+                    scriptableObject.IsQuestCompleated = true;
+                }
+            }
+        }
+        if(scriptableObject.HasMetPlayer == false)
+        {
+            FindObjectOfType<DialogueManager>().StartDialogue(introSentences);
+            scriptableObject.HasMetPlayer = true;
+        }
+        else if(!scriptableObject.IsQuestCompleated && scriptableObject.HasMetPlayer)
+        {
+            FindObjectOfType<DialogueManager>().StartDialogue(questSentences);
+        }
+        else if(scriptableObject.IsQuestCompleated && scriptableObject.HasMetPlayer)
+        {
+            FindObjectOfType<DialogueManager>().StartDialogue(questFinshedSentences);
+        }
+    }
+    public void Door()
+    {
+        if(iM.KeyCount > 0)
+        {
+            IsLocked = false;
+            iM.KeyCount -= 1;
+            if(iM.KeyCount < 0)
+            {
+                iM.KeyCount = 0;
+            }
+            StartCoroutine(ShowInfo("Click", InfoTextDelay));
+        }
+        else if(IsLocked == true)
+        {
+            StartCoroutine(ShowInfo(message, InfoTextDelay));
+        }
     }
     public void Portal()
     {
         if(player.GetComponent<Interaction>().PillarActiveCount < 4)
         {
-            StartCoroutine(ShowInfo(message, 2.5f));
+            StartCoroutine(ShowInfo(message, InfoTextDelay));
         }
         else
         {
-
+            levelManager.LoadThisScene("Gameplay 5");
         }
     }
     public void OnTriggerEnter2D(Collider2D other)
@@ -70,6 +190,7 @@ public class InteractableObject : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             player = other.gameObject;
+            iM = FindObjectOfType<InventoryManager>();
         }
     }
     public void OnTriggerExit2D(Collider2D other)
@@ -77,6 +198,7 @@ public class InteractableObject : MonoBehaviour
         if(other.CompareTag("Player"))
         {
             player = null;
+            iM = null;
         }
     }
     IEnumerator ShowInfo(string message, float delay)
@@ -84,7 +206,20 @@ public class InteractableObject : MonoBehaviour
         infoText.text = message;
         yield return new WaitForSeconds(delay);
         infoText.text = "";
-
     }
-
+    public void EndQuest()
+    {
+        if(questRequest == "Flowers")
+        {
+            this.gameObject.SetActive(false); 
+        }
+        if(questRequest == "Coins")
+        {
+            this.gameObject.SetActive(false);
+        }
+        if(questRequest == "Candle")
+        {
+            levelManager.LoadThisScene("GameOver");
+        }
+    }
 }

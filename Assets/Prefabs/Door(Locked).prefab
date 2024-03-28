@@ -176,9 +176,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c99923e9b98445249af93ba8591072bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Its Locked
+  InfoTextDelay: 2.5
   itemType: 2
+  message: Its Locked
+  IsQuestrelated: 0
   sentences: []
+  IsActivated: 0
+  ObjectAnimator: {fileID: 0}
+  IsLocked: 0
 --- !u!61 &6290608518595789631
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -159,9 +159,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c99923e9b98445249af93ba8591072bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Or'Iha Louse 1275 - 1337
+  InfoTextDelay: 2.5
   itemType: 2
+  message: Or'Iha Louse 1275 - 1337
+  IsQuestrelated: 0
   sentences: []
+  IsActivated: 0
+  ObjectAnimator: {fileID: 0}
+  IsLocked: 0
 --- !u!212 &9207647809730693447
 SpriteRenderer:
   m_ObjectHideFlags: 0

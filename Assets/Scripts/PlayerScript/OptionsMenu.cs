@@ -11,7 +11,7 @@ public class OptionsMenu : MonoBehaviour
 
     Resolution[] resolutions;
     
-    void Start()
+    void Awake()
     {
         resolutions = Screen.resolutions;
 
@@ -32,7 +32,6 @@ public class OptionsMenu : MonoBehaviour
                 CurrentResolutionIndex = i;
             }
         }
-
         resolutionDropdown.AddOptions(Options);
         resolutionDropdown.value = CurrentResolutionIndex;
         resolutionDropdown.RefreshShownValue();

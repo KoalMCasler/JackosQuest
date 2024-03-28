@@ -55,6 +55,10 @@ public class DialogueManager : MonoBehaviour
         playerAnim.SetBool("IsIdle", false);
         player.GetComponent<CharacterController2D>().enabled = true;
         player.GetComponent<Interaction>().enabled = true;
+        if(player.GetComponent<Interaction>().currentInterObjScript.scriptableObject.IsQuestCompleated)
+        {
+            player.GetComponent<Interaction>().currentInterObjScript.EndQuest();
+        }
     }
 
 

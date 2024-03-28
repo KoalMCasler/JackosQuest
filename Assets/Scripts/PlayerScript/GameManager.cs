@@ -15,10 +15,19 @@ public class GameManager : MonoBehaviour
     public GameObject player;
     public GameObject spawnPoint;
     public GameObject playerArt;
+    public GameObject menuAnimation;
 
     public enum GameState{ MainMenu, Gameplay, Paused, Options, GameOver, GameWin}
-
+    [Header("Game State")]
     public GameState gameState;
+    [Header("Scriptable Objects")] //needed to reset progress.
+    public InteractableScriptObject pillarQuest;
+    public InteractableScriptObject coinQuest;
+    public InteractableScriptObject potionQuest;
+    public InteractableScriptObject flowerQuest;
+    public InteractableScriptObject candleQuest;
+    public InteractableScriptObject[] Pickups;
+    public InteractableScriptObject[] Pillars;
 
     public void Awake()
     {
@@ -55,11 +64,14 @@ public class GameManager : MonoBehaviour
     }
     void MainMenu()
     {
+        ResetObjects();
+        menuAnimation.SetActive(true);
         player.SetActive(false);
         uIManager.SetMainMenu();
     }
     void Gameplay()
     {
+        menuAnimation.SetActive(false);
         player.SetActive(true);
         uIManager.SetHUDActive();
     }
@@ -88,5 +100,29 @@ public class GameManager : MonoBehaviour
         //Debug line to test quit function in editor
         //UnityEditor.EditorApplication.isPlaying = false;
         Application.Quit();
+    }
+    void ResetObjects()
+    {
+        inventoryManager.ResetProgress();
+
+        pillarQuest.HasMetPlayer = false;
+        pillarQuest.IsQuestCompleated = false;
+        candleQuest.HasMetPlayer = false;
+        candleQuest.IsQuestCompleated = false;
+        coinQuest.HasMetPlayer = false;
+        coinQuest.IsQuestCompleated = false;
+        flowerQuest.HasMetPlayer = false;
+        flowerQuest.IsQuestCompleated = false;
+        potionQuest.HasMetPlayer = false;
+        potionQuest.IsQuestCompleated = false;
+
+        for(int i = 0; i < Pickups.Length; i++ )
+        {
+            Pickups[i].IsPickedUp = false;
+        }
+        for(int i = 0; i < Pillars.Length; i++ )
+        {
+            Pillars[i].IsActivated = false;
+        }
     }
 }

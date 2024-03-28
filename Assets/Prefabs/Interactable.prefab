@@ -166,9 +166,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c99923e9b98445249af93ba8591072bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Shiny!
+  InfoTextDelay: 0.5
   itemType: 1
+  message: Shiny!
+  IsQuestrelated: 0
   sentences: []
+  IsActivated: 0
+  ObjectAnimator: {fileID: 0}
+  IsLocked: 0
 --- !u!58 &4280471463060440672
 CircleCollider2D:
   m_ObjectHideFlags: 0
