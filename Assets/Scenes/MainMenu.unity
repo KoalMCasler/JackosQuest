@@ -5769,7 +5769,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2843256387502006015, guid: 0eefddf0d4bff954cb27b8e04780cf49, type: 3}
       propertyPath: m_SortingOrder
-      value: 10
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5365253130977826312, guid: 0eefddf0d4bff954cb27b8e04780cf49, type: 3}
       propertyPath: inventory
