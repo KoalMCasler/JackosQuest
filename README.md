@@ -5,6 +5,8 @@ A 2D top-down adventure game where you play a pumpkin-headed skeleton trying to 
 
 Activate the portal to get home!
 
+![JackosQuest](https://github.com/KoalMCasler/JackosQuest/assets/71401318/dd115068-94b8-4849-b0f2-7f5a77670e6d)
+
 Credits:
 
 Programming, Level Desing, Story, Concept: Koal M. Casler
