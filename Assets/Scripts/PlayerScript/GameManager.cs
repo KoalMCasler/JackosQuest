@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     public GameObject playerArt;
     public GameObject menuAnimation;
 
-    public enum GameState{ MainMenu, Gameplay, Paused, Options, GameOver, GameWin}
+    public enum GameState{ MainMenu, Gameplay, Paused, Options, GameOver, GameWin, Credits}
     [Header("Game State")]
     public GameState gameState;
     [Header("Scriptable Objects")] //needed to reset progress.
@@ -60,6 +60,7 @@ public class GameManager : MonoBehaviour
             case GameState.Options: Options(); break;
             case GameState.GameOver: GameOver(); break;
             case GameState.GameWin: GameWin(); break;
+            case GameState.Credits: Credits(); break;
         }
     }
     void MainMenu()
@@ -94,6 +95,10 @@ public class GameManager : MonoBehaviour
     {
         player.SetActive(false);
         uIManager.SetGameWin();
+    }
+    void Credits()
+    {
+        uIManager.SetCredits();
     }
     public void QuitGame()
     {

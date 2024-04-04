@@ -11,6 +11,7 @@ public class UIManager : MonoBehaviour
     public GameObject GameWin;
     public GameObject GameOver;
     public GameManager gameManager;
+    public GameObject Credits;
     public bool GameIsPause;
     void Start()
     {
@@ -35,6 +36,7 @@ public class UIManager : MonoBehaviour
         HUD.SetActive(false);
         GameOver.SetActive(false);
         GameWin.SetActive(false);
+        Credits.SetActive(false);
     }
     public void SetMainMenu()
     {
@@ -70,9 +72,19 @@ public class UIManager : MonoBehaviour
         GameWin.SetActive(true);
         GameIsPause = false;
     }
+    public void SetCredits()
+    {
+        ResetObjects();
+        Credits.SetActive(true);
+
+    }
     public void OpenOptionsMenu()
     {
         gameManager.gameState = GameManager.GameState.Options;
+    }
+    public void OpenCreditsMenu()
+    {
+        gameManager.gameState = GameManager.GameState.Credits;
     }
     public void BackFromOptions()
     {
