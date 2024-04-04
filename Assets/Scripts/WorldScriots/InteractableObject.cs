@@ -14,6 +14,7 @@ public class InteractableObject : MonoBehaviour
     public enum ItemType{Nothing, Pickup, Info, Talks, Pillar, Portal, Door}
     public ItemType itemType;
     public string message;
+    public AudioSource SFX; 
     [Header("Used by NPCS")]
     public bool HasQuest;
     public string[] introSentences;
@@ -29,6 +30,7 @@ public class InteractableObject : MonoBehaviour
     public InteractableScriptObject scriptableObject;
     [Header("Used by Portal and last quest npc")]
     public LevelManager levelManager;
+    private float textSpeed = 0.01f;
 
 
     void Start()
@@ -203,7 +205,7 @@ public class InteractableObject : MonoBehaviour
     }
     IEnumerator ShowInfo(string message, float delay)
     {
-        infoText.text = message;
+        StartCoroutine(ScrollingText(message));
         yield return new WaitForSeconds(delay);
         infoText.text = "";
     }
@@ -211,7 +213,10 @@ public class InteractableObject : MonoBehaviour
     {
         if(questRequest == "Flowers")
         {
-            this.gameObject.SetActive(false); 
+            if(this.gameObject.GetComponent<NPCAnimator>().IsQuestCompleated == false)
+            {
+                this.gameObject.GetComponent<NPCAnimator>().IsQuestCompleated = true;
+            }
         }
         if(questRequest == "Coins")
         {
@@ -220,6 +225,14 @@ public class InteractableObject : MonoBehaviour
         if(questRequest == "Candle")
         {
             levelManager.LoadThisScene("GameOver");
+        }
+    }
+    private IEnumerator ScrollingText(string currentLine)
+    {
+        for(int i = 0; i < currentLine.Length + 1; i++)
+        {
+            infoText.text = currentLine.Substring(0,i);
+            yield return new WaitForSeconds(textSpeed);
         }
     }
 }

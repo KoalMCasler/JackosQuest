@@ -4,46 +4,17 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
+using TMPro;
 
 public class OptionsMenu : MonoBehaviour
 {
-    public TMPro.TMP_Dropdown resolutionDropdown;
-
-    Resolution[] resolutions;
+    public AudioMixer MasterVolume;
     
-    void Awake()
+    public TextMeshProUGUI volumeText;
+    public void SetVolume(float Volume)
     {
-        resolutions = Screen.resolutions;
-
-        resolutionDropdown.ClearOptions();
-
-        List<string> Options = new List<string>();
-
-        int CurrentResolutionIndex = 0;
-
-        for(int i = 0; i < resolutions.Length; i++)
-        {
-            string Option = string.Format("{0} X {1}", resolutions[i].width, resolutions[i].height);
-            Options.Add(Option);
-
-            if(resolutions[i].width == Screen.currentResolution.width &&
-               resolutions[i].height == Screen.currentResolution.height)
-            {
-                CurrentResolutionIndex = i;
-            }
-        }
-        resolutionDropdown.AddOptions(Options);
-        resolutionDropdown.value = CurrentResolutionIndex;
-        resolutionDropdown.RefreshShownValue();
-    }
-    public void SetFullScreen(bool IsFullScreen)
-    {
-        Screen.fullScreen = IsFullScreen;
-    }
-
-    public void SetResolution(int ResolutionIndex)
-    {
-        Resolution resolution = resolutions[ResolutionIndex];
-        Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
+        Debug.Log(Volume);
+        volumeText.text = string.Format("{0:0.0} dB",Volume);
+        MasterVolume.SetFloat("MasterVolume", Volume);
     }
 }

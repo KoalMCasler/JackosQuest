@@ -10,6 +10,7 @@ public class Interaction : MonoBehaviour
     public GameObject indicator;
     public int PillarActiveCount;
     public InventoryManager inventoryManager;
+    public AudioSource coinSound;
 
     void Start()
     {
@@ -30,7 +31,11 @@ public class Interaction : MonoBehaviour
         {
             currentInterObj = other.gameObject;
             currentInterObjScript = currentInterObj.GetComponent<InteractableObject>();
-            if(currentInterObjScript.scriptableObject.IsActivated != true)
+            if(other.name == "Coin")
+            {
+                Interact();
+            }
+            if(currentInterObjScript.scriptableObject.IsActivated != true && other.name != "Coin")
             {
                 indicator.SetActive(true);
             }
@@ -61,6 +66,7 @@ public class Interaction : MonoBehaviour
             {
                 if(currentInterObj.name == "Coin")
                 {
+                    coinSound.Play();
                     inventoryManager.CoinCount += 1;
                 }
                 if(currentInterObj.name == "Flower")

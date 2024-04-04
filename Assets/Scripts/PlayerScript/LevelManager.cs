@@ -16,6 +16,7 @@ public class LevelManager : MonoBehaviour
     public GameObject EnterOffset;
     public GameObject ExitOffset;
     public SceneInfo sceneInfo;
+    public float SceneChangeDelay;
     void Start()
     {
         player = GameObject.FindWithTag("Player");
@@ -35,7 +36,7 @@ public class LevelManager : MonoBehaviour
         {
             gameManager.gameState = GameManager.GameState.GameOver;
         }
-        SceneManager.LoadScene(sceneName);
+        StartCoroutine(LoadSceneWithDealy(sceneName));
     }
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
@@ -49,5 +50,10 @@ public class LevelManager : MonoBehaviour
         GameObject target = sceneInfo.IsNextScene ? Entrance : Exit;
         Vector3 Offset = sceneInfo.IsNextScene ? EnterOffset.transform.position : ExitOffset.transform.position;
         player.transform.position =  Offset;
+    }
+    IEnumerator LoadSceneWithDealy(string sceneName)
+    {
+        yield return new WaitForSeconds(SceneChangeDelay);
+        SceneManager.LoadScene(sceneName);
     }
 }

@@ -5,40 +5,16 @@ using UnityEngine;
 public class NPCAnimator : MonoBehaviour
 {
     public Animator npcAnim;
-    public Rigidbody2D npcRB;
-    public bool IsIdle;
-    public Vector2 moveTarget;
+    public bool IsQuestCompleated;
     void Start()
     {
-        npcRB = this.gameObject.GetComponent<Rigidbody2D>();
-        IsIdle = true;
+        IsQuestCompleated = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(npcRB.velocity.x == 0 && npcRB.velocity.y == 0)
-        {
-            IsIdle = true;
-        }
-        else
-        {
-            IsIdle = false;
-        }
-        npcAnim.SetBool("IsIdle", IsIdle);
-        if(!IsIdle)
-        {
-            npcAnim.SetFloat("moveX",npcRB.velocity.x);
-            npcAnim.SetFloat("moveY",npcRB.velocity.y);
-        }
-        else
-        {
-            npcAnim.SetFloat("moveX", 0);
-            npcAnim.SetFloat("moveY", 0);
-        }
+       npcAnim.SetBool("IsQuestCompleated", IsQuestCompleated);
     }
-    public void MoveNPC()
-    {
-        npcRB.MovePosition(moveTarget * Time.deltaTime);
-    }
+   
 }

@@ -24,6 +24,10 @@ public class CharacterController2D : MonoBehaviour
         IsSprinting = false;
         playerRB = gameObject.GetComponent<Rigidbody2D>();
     }
+    void OnEnable()
+    {
+        playerAnim.SetBool("IsIdle", true);
+    }
     // Update is called once per frame
     void Update()
     {

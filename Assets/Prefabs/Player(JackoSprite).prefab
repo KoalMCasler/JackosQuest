@@ -337,3 +337,4 @@ MonoBehaviour:
   indicator: {fileID: 3528190229371230845}
   PillarActiveCount: 0
   inventoryManager: {fileID: 0}
+  coinSound: {fileID: 0}

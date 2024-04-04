@@ -11,7 +11,10 @@ public class DialogueManager : MonoBehaviour
     public GameObject player;
     public Animator playerAnim;   
     private Queue<string> dialogueQueue;
-    
+    [SerializeField] 
+    private float textSpeed = 0.01f;
+    public AudioSource textSFX;
+    public AudioClip textSFXClip;
     void Start()
     {
         dialogueQueue = new Queue<string>();
@@ -35,7 +38,7 @@ public class DialogueManager : MonoBehaviour
     }
 
 
-    public void DisplayNextSentence()
+    private void DisplayNextSentence()
     {
         if(dialogueQueue.Count == 0)
         {
@@ -44,8 +47,7 @@ public class DialogueManager : MonoBehaviour
         }
 
         string currentLine = dialogueQueue.Dequeue();
-
-        dialogueText.text = currentLine;
+        StartCoroutine(ScrollingText(currentLine));
     }
 
     void EndDialogue()
@@ -60,7 +62,14 @@ public class DialogueManager : MonoBehaviour
             player.GetComponent<Interaction>().currentInterObjScript.EndQuest();
         }
     }
-
-
+    private IEnumerator ScrollingText(string currentLine)
+    {
+        for(int i = 0; i < currentLine.Length + 1; i++)
+        {
+            dialogueText.text = currentLine.Substring(0,i);
+            textSFX.PlayOneShot(textSFXClip,0.5f);
+            yield return new WaitForSeconds(textSpeed);
+        }
+    }
 
 }

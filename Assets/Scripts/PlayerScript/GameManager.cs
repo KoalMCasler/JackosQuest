@@ -82,7 +82,7 @@ public class GameManager : MonoBehaviour
     }
     void Options()
     {
-        player.SetActive(false);
+        //player.SetActive(false);
         uIManager.SetOptionsMenu();
     }
     void GameOver()
