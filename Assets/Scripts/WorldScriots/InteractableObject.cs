@@ -203,6 +203,7 @@ public class InteractableObject : MonoBehaviour
         }
         else
         {
+            player.GetComponent<Animator>().SetTrigger("PlayerTP");
             levelManager.LoadThisScene("Gameplay 5");
         }
     }
