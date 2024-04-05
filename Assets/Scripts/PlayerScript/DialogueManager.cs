@@ -15,12 +15,19 @@ public class DialogueManager : MonoBehaviour
     private float textSpeed = 0.01f;
     public AudioSource textSFX;
     public AudioClip textSFXClip;
+    public bool TextIsFinished;
+    public Button NextTextButton;
+
     void Start()
     {
+        TextIsFinished = true;
         dialogueQueue = new Queue<string>();
         playerAnim = player.GetComponent<Animator>();
     }
-
+    void Update()
+    {
+        NextTextButton.interactable = TextIsFinished;
+    }
 
     public void StartDialogue(string[] sentences)
     {
@@ -64,12 +71,14 @@ public class DialogueManager : MonoBehaviour
     }
     private IEnumerator ScrollingText(string currentLine)
     {
+        TextIsFinished = false;
         for(int i = 0; i < currentLine.Length + 1; i++)
         {
             dialogueText.text = currentLine.Substring(0,i);
             textSFX.PlayOneShot(textSFXClip,0.5f);
             yield return new WaitForSeconds(textSpeed);
         }
+        TextIsFinished = true;
     }
 
 }

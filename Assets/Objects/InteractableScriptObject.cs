@@ -5,6 +5,7 @@ using TMPro;
 public class InteractableScriptObject : ScriptableObject
 {
     public bool HasMetPlayer;
+    public bool HasExplainedQuest;
     public bool IsQuestCompleated;
     public bool IsPickedUp;
     public bool IsActivated;

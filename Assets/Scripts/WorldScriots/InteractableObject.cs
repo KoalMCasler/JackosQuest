@@ -14,7 +14,8 @@ public class InteractableObject : MonoBehaviour
     public enum ItemType{Nothing, Pickup, Info, Talks, Pillar, Portal, Door}
     public ItemType itemType;
     public string message;
-    public AudioSource SFX; 
+    public AudioSource SFX;
+    public InteractableScriptObject relatedQuestNPC;
     [Header("Used by NPCS")]
     public bool HasQuest;
     public string[] introSentences;
@@ -73,7 +74,19 @@ public class InteractableObject : MonoBehaviour
             {
                 ObjectAnimator.SetBool("IsActivated", true);
             }
+            if(this.name == "Key")
+            {
+              if(relatedQuestNPC.IsQuestCompleated)
+              {
+                this.gameObject.SetActive(true);
+              }
+              else
+              {
+                this.gameObject.SetActive(false);
+              }
+            }
         }
+        
     }
     public void Info()
     {
@@ -103,7 +116,7 @@ public class InteractableObject : MonoBehaviour
     }
     public void Talks()
     {
-        if(HasQuest && scriptableObject.HasMetPlayer)
+        if(HasQuest && scriptableObject.HasExplainedQuest)
         {
             if(questRequest == "Coins")
             {
@@ -153,6 +166,12 @@ public class InteractableObject : MonoBehaviour
         else if(!scriptableObject.IsQuestCompleated && scriptableObject.HasMetPlayer)
         {
             FindObjectOfType<DialogueManager>().StartDialogue(questSentences);
+            scriptableObject.HasExplainedQuest = true;
+        }
+        else if(scriptableObject.IsQuestCompleated && !scriptableObject.HasExplainedQuest)
+        {
+            FindObjectOfType<DialogueManager>().StartDialogue(questSentences);
+            scriptableObject.HasExplainedQuest = true;
         }
         else if(scriptableObject.IsQuestCompleated && scriptableObject.HasMetPlayer)
         {

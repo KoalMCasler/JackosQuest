@@ -14,7 +14,8 @@ public class OptionsMenu : MonoBehaviour
     public void SetVolume(float Volume)
     {
         Debug.Log(Volume);
-        volumeText.text = string.Format("{0:0.0} dB",Volume);
         MasterVolume.SetFloat("MasterVolume", Volume);
+        float DisplayVolume = 80 + Volume;
+        volumeText.text = string.Format("{0:0.0}%",DisplayVolume);
     }
 }
