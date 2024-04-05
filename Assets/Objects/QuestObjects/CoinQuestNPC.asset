@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eedcf87d052473b4f8b4e223d266aca6, type: 3}
   m_Name: CoinQuestNPC
   m_EditorClassIdentifier: 
+  HasMetPlayer: 0
+  HasExplainedQuest: 0
   IsQuestCompleated: 0
   IsPickedUp: 0
   IsActivated: 0

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: FinalQuest
   m_EditorClassIdentifier: 
   HasMetPlayer: 0
+  HasExplainedQuest: 0
   IsQuestCompleated: 0
   IsPickedUp: 0
   IsActivated: 0
