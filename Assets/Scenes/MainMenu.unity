@@ -3962,7 +3962,7 @@ MonoBehaviour:
   dialogueText: {fileID: 1783954260}
   player: {fileID: 5543748312433400590}
   playerAnim: {fileID: 0}
-  textSpeed: 0.025
+  textSpeed: 0.015
   textSFX: {fileID: 972746987}
   textSFXClip: {fileID: 8300000, guid: a05e0992921345f44bf5c4fd0aa97a21, type: 3}
   TextIsFinished: 0
