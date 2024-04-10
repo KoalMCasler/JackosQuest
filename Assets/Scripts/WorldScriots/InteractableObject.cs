@@ -21,6 +21,7 @@ public class InteractableObject : MonoBehaviour
     public string[] introSentences;
     public string[] questSentences;
     public string[] questFinshedSentences;
+    public string[] finalSentences;
     public int questReqierment;
     public string questRequest;
     [Header("Used by Portal and Pillar")]
@@ -55,10 +56,6 @@ public class InteractableObject : MonoBehaviour
             }
             if(scriptableObject.IsQuestCompleated)
             {
-                if(questRequest == "Flowers")
-                {
-                    this.gameObject.SetActive(false);
-                }
                 if(questRequest == "Coins")
                 {
                     this.gameObject.SetActive(false);
@@ -173,9 +170,14 @@ public class InteractableObject : MonoBehaviour
             FindObjectOfType<DialogueManager>().StartDialogue(questSentences);
             scriptableObject.HasExplainedQuest = true;
         }
-        else if(scriptableObject.IsQuestCompleated && scriptableObject.HasMetPlayer)
+        else if(scriptableObject.IsQuestCompleated && scriptableObject.HasMetPlayer && !scriptableObject.EverythingFinished)
         {
             FindObjectOfType<DialogueManager>().StartDialogue(questFinshedSentences);
+            scriptableObject.EverythingFinished = true;
+        }
+        else if(scriptableObject.EverythingFinished)
+        {
+            FindObjectOfType<DialogueManager>().StartDialogue(finalSentences);
         }
     }
     public void Door()

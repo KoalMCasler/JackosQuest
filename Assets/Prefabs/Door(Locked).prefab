@@ -132,7 +132,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -179,11 +179,18 @@ MonoBehaviour:
   InfoTextDelay: 2.5
   itemType: 2
   message: Its Locked
-  IsQuestrelated: 0
-  sentences: []
-  IsActivated: 0
+  SFX: {fileID: 0}
+  relatedQuestNPC: {fileID: 0}
+  HasQuest: 0
+  introSentences: []
+  questSentences: []
+  questFinshedSentences: []
+  questReqierment: 0
+  questRequest: 
   ObjectAnimator: {fileID: 0}
   IsLocked: 0
+  scriptableObject: {fileID: 0}
+  levelManager: {fileID: 0}
 --- !u!61 &6290608518595789631
 BoxCollider2D:
   m_ObjectHideFlags: 0

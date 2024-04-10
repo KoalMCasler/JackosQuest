@@ -113,18 +113,23 @@ public class GameManager : MonoBehaviour
         pillarQuest.HasMetPlayer = false;
         pillarQuest.IsQuestCompleated = false;
         pillarQuest.HasExplainedQuest = false;
+        pillarQuest.EverythingFinished =false;
         candleQuest.HasMetPlayer = false;
         candleQuest.IsQuestCompleated = false;
         candleQuest.HasExplainedQuest = false;
+        candleQuest.EverythingFinished =false;
         coinQuest.HasMetPlayer = false;
         coinQuest.IsQuestCompleated = false;
         coinQuest.HasExplainedQuest = false;
+        coinQuest.EverythingFinished =false;
         flowerQuest.HasMetPlayer = false;
         flowerQuest.IsQuestCompleated = false;
         flowerQuest.HasExplainedQuest = false;
+        flowerQuest.EverythingFinished =false;
         potionQuest.HasMetPlayer = false;
         potionQuest.IsQuestCompleated = false;
         potionQuest.HasExplainedQuest = false;
+        potionQuest.EverythingFinished =false;
 
         for(int i = 0; i < Pickups.Length; i++ )
         {
